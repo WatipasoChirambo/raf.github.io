@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  /* margin: 5px; */
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+html, body {
+  min-height: 100%;
+  margin:0;
+  padding:0;
+}
+body {
+  background: white;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+h2{
+  color:green;
+}
+
+/* layout & nav */
+.layout {
+  max-width: auto;
+  background-color:white;
+}
+/* .content div h2{
+  color:green;
+} */
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-right:25px;
+  margin-bottom:15px;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+  color:green;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:green;
+}
+nav a:hover {
+  border-bottom:1px solid green;
+}
+footer{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  margin-top:15px;
+  gap:none;
+}
+footer h3{
+  text-align:left;
+}
+footer div{
+  background-color:black;
+  color:gray;
+  padding-left:30%;
+}
+footer div h2{
+  color:white;
+  text-align: left;
+}
+footer p{
+  text-align: left;
+  color: gray;
+}
+footer ul{
+  text-align:center;
+}
+.content{
+  margin-left:25px;
+  margin-right:25px;
+}
+
+
+@media only screen and (max-width: 320px) {
+  body {
+    background: white;
+  }
+  nav {
+  display:block;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+}
+nav .links:hover {
+  border-bottom:1px solid green;
+}
+  footer{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  margin-top:15px;
+  gap:none;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: white;
+    
+    display:block;
+  }
+  nav {
+  display:block;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:green;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background: white;
+    display:block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 0px;
+  color:green;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+nav .links:active {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+@media only screen and (max-width:280px) {
+  body {
+    background: white;
+    display:block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+@media only screen and (max-width: 375px){
+  body {
+    background: white;
+    display:block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}

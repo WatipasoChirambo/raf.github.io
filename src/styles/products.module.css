@@ -1,0 +1,419 @@
+.portfolio {
+  text-align: center;
+}
+.portfolio >div> h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio >div> h3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: black;
+}
+h1{
+  color:green;
+  text-align:center;
+}
+h3{
+  color:gray;
+  text-align:center;
+}
+h2{
+  color:green;
+  text-align:center;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+.projects h2{
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+  color:green;
+}
+.projects h2 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+  color:green;
+}
+.projects p {
+  color: gray;
+  margin-top: 4px;
+  text-align: center;
+}
+@media only screen and (max-width: 320px){
+  .projects {
+  display: block;
+}
+}
+@media only screen and (max-width: 375px){
+  .projects {
+  display: block;
+}
+h3{
+  color:green;
+  text-align:center;
+}
+}
+@media only screen and (max-width: 425px){
+  .projects {
+  display: block;
+}
+h3{
+  color:green;
+  text-align:center;
+}
+  body {
+    background: white;
+    display:block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-top: 62px;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+
+@media only screen and (max-width: 375px){
+  .projects {
+    display: block;
+  }
+  h3{
+    color:green;
+    text-align:center;
+  }
+    body {
+      background: white;
+      display:block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:green;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+  }
+  @media only screen and (max-width: 425px){
+    .projects {
+      display: block;
+    }
+    h3{
+      color:green;
+      text-align:center;
+    }
+      body {
+        background: white;
+        display:block;
+      }
+      nav {
+      display:block;
+      margin-right:25px;
+      width:100%;
+    }
+    nav a {
+      display: inline-block;
+      margin-left: 20px;
+      font-weight: 400;
+      padding-top: 62px;
+      color:green;
+      padding-bottom: 10px;
+      margin-bottom: 20%;
+    }
+    nav .links {
+      display:flex;
+      float:left;
+      text-align: center;
+      color:white;
+      padding-top: 10px;
+      margin-left: 10%;
+    }
+    nav .links:hover {
+      border-bottom:1px solid white;
+    }
+      footer{
+      display:block;
+      margin-top:10px;
+    }
+    footer>div{
+      display:block;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    footer ul{
+      text-align:center;
+      display:block;
+    }
+}
+
+@media only screen and (max-width: 390px){
+  .projects {
+    display: block;
+  }
+  h3{
+    color:green;
+    text-align:center;
+  }
+    body {
+      background: white;
+      display:block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:green;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+}
+@media only screen and (max-width: 428px){
+  .projects {
+    display: block;
+  }
+  h3{
+    color:green;
+    text-align:center;
+  }
+    body {
+      background: white;
+      display:block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:green;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+}
+@media only screen and (max-width: 414px){
+  .projects {
+    display: block;
+  }
+  h3{
+    color:green;
+    text-align:center;
+  }
+    body {
+      background: white;
+      display:block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:green;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+}
+@media only screen and (max-width: 375px){
+  .projects {
+    display: block;
+  }
+  h3{
+    color:green;
+    text-align:center;
+  }
+    body {
+      background: white;
+      display:block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:green;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+}
+
