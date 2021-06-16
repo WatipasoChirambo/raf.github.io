@@ -1,67 +1,84 @@
 .wrapper{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    column-gap: 2rem;
+    gap:100px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    column-gap: 1rem;
     text-align:center;
 }
 .top_side{
     display:grid;
-    gap:30px;
+    gap:10px;
     grid-template-rows:1fr 1fr;
     background-color:white;
 }
 .down_side{
     display:grid;
-    gap:30px;
+    gap:10px;
     grid-template-rows:1fr 1fr;
     background-color:white;
 }
 .chemicals{
-    border:1px solid yellow;
+    border:1px solid rgb(97, 7, 7);
     text-align:justify;
-    border-radius:10px;
+    margin-bottom: 25px;
 }
 .chemicals>div>h2{
-    color:yellow !important;
+    color:rgb(97, 7, 7) !important;
 }
 .chemicals>div>p{
     padding-left:15px;
     padding-right:15px;
 }
+.chemicals>div>div>p{
+    padding-left:15px;
+    padding-right:15px;
+}
 .livestock{
-    border:1px solid #d32626;
+    border:1px solid #ff0000;
     text-align:justify;
-    border-radius:10px;
-    
+    margin-bottom: 25px;
 }
 .livestock>div>h2{
-    color:#d32626 !important;
+    color:#ff0000 !important;
 }
 .livestock>div>p{
     padding-left:15px;
     padding-right:15px;
 }
+.livestock>div>div>p{
+    padding-left:15px;
+    padding-right:15px;
+}
 .vegetables{
-    border:1px solid #54e346;
+    border:1px solid rgb(34, 163, 82);
     text-align:justify;
-    border-radius:10px;
+    margin-bottom: 25px;
 }
 .vegetables>div>h2{
-    color:#54e346 !important;
+    color:rgb(34, 163, 82) !important;
 }
 .vegetables>div>p{
     padding-left:15px;
     padding-right:15px;
 }
+.vegetables>div>div>p{
+    padding-left:15px;
+    padding-right:15px;
+}
 .logistics{
-    border:1px solid #ffce89;
+    border:1px solid #961086;
     text-align:justify;
-    border-radius:10px;
+    margin-bottom: 25px;
 }
 .logistics>div>h2{
-    color:#ffce89 !important;
+    color:#961086 !important;
 }
 .logistics>div>p{
+    padding-left:15px;
+    padding-right:15px;
+    text-align:justify !important;
+}
+.logistics>div>div>p{
     padding-left:15px;
     padding-right:15px;
 }

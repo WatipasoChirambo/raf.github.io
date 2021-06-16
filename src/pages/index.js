@@ -26,15 +26,15 @@ export default function Home() {
       <div className={styles.company}>
           <h1>COMPANY INFO</h1>
         <div className={styles.company_core_businesses}>
-        <div>
+        <div className={styles.vision}>
               <h3>VISION</h3>
               <p>To be the leading agribusiness company while providing solid returns to the community</p>
-            </div>
-            <div>
+        </div>
+          <div>
               <h3>MISSION</h3>
               <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
-            </div>
-            <div>
+          </div>
+          <div>
               <h3>OBJECTIVES</h3>
               <ul>
                 <li>Providing quality livestock</li>

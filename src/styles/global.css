@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 * {
-  /* margin: 5px; */
   padding: 0;
   text-decoration: none;
   font-family: "Roboto";
@@ -10,6 +9,8 @@ html, body {
   min-height: 100%;
   margin:0;
   padding:0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body {
   background: white;
@@ -32,8 +33,9 @@ h2{
 } */
 nav {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.5fr 1fr;
   margin-right:25px;
+  margin-left:25px;
   margin-bottom:15px;
 }
 nav .links {
@@ -41,6 +43,7 @@ nav .links {
   text-align: right;
   color:green;
 }
+
 nav a {
   display: inline-block;
   margin-left: 20px;
@@ -53,7 +56,7 @@ nav a:hover {
 }
 footer{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top:15px;
   gap:none;
 }
@@ -91,7 +94,7 @@ footer ul{
   width:100%;
 }
 nav a {
-  display: inline-block;
+  display: none;
   margin-left: 20px;
   font-weight: 400;
   padding-top: 62px;
@@ -107,9 +110,13 @@ nav .links {
 nav .links:hover {
   border-bottom:1px solid green;
 }
+nav button .menu-button{
+    height: 300;
+    width: 300;
+}
   footer{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top:15px;
   gap:none;
 }
@@ -149,7 +156,7 @@ nav .links:hover {
 }
   footer{
   display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 footer ul{
   text-align:center;
@@ -286,3 +293,54 @@ footer ul{
   display:block;
 }
 }
+@media only screen and (max-width: 375px){
+    .header {
+      display: block;
+    }
+    .slogan{
+      display: block;
+      text-align: left;
+      padding: 20px;
+    }
+    .middle{
+      display:block;
+      text-align:center;
+    }
+    .middle_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .company_core_businesses{
+      display:block;
+      text-align:center;
+    }
+    .left_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .right_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+     ul{
+      color:black;
+    }
+     .left_middle{
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-bottom:5px;
+     }
+     .middle_middle{
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-bottom:5px;
+     }
+     .right_middle{
+       padding-top:5px;
+       padding-bottom:5px;
+       margin-bottom:5px;
+     }
+    }

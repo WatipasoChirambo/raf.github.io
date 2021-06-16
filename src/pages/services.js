@@ -14,9 +14,19 @@ export default function Service() {
                   <h2>Farm Chemicals</h2>
                 </div>
                 <div>
+                  <div>
+                    <h3>
+                      Agricultural Chemicalls 
+                    </h3>
+                    <p>
+                    This refers to any substance involved in the growth or utilization of 
+                    any plant or animal of economic importance to humans.
+                    </p>
+                  </div>
+
                   <p>
-                    In the broadest sense, any kind of plant life or plant product, namely “vegetable matter”; in common, narrow usage, the term vegetable usually refers to the fresh edible portions of certain herbaceous plants—roots, stems, leaves, flowers, fruit, or seeds. 
-                    These plant parts are either eaten fresh or prepared in a number of ways, usually as a savory, rather than sweet, dish.
+                  Farmers have long understood the importance of replenishing the soil , 
+                  and they have traditionally done so by natural means, using such materials as manure, dead fish, or compost
                   </p>
                 </div>
             </div>
@@ -51,7 +61,7 @@ export default function Service() {
                 <div>
                   <p>
                     In the broadest sense, any kind of plant life or plant product, namely “vegetable matter”; in common, narrow usage, the term vegetable usually refers to the fresh edible portions of certain herbaceous plants—roots, stems, leaves, flowers, fruit, or seeds. 
-                    These plants parts are either eaten fresh or prepared in a number of ways, usually as a savory, rather than sweet, dish.
+                    These plant parts are either eaten fresh or prepared in a number of ways, usually as a savory, rather than sweet, dish.
                   </p>
                 </div>
             </div>
