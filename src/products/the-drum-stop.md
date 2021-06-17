@@ -1,7 +1,7 @@
 ---
 title: Onions
 stack: Vegetables
-slug: onions
+slug: Onions
 date: 2021-01-05T00:00:00+00:00
 key: 'products'
 template: products
