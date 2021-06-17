@@ -1,14 +1,14 @@
 ---
-title: Legumes
+title: Bean
 stack: Protein
-slug: retro-gaming-zone
+slug: beans
 date: 2021-01-04T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/soybeans.png
-featuredImg: ../images/featured/soybeans.png
+thumb: ../images/thumbs/beans.png
+featuredImg: ../images/featured/beans.png
 ---
-## Soy beans
+## Beans
 
 The soybean or soya bean (Glycine max) is a species of legume native to East Asia, widely grown for its edible bean.
 

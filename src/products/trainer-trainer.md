@@ -1,7 +1,7 @@
 ---
 title: Tomatoes
 stack: Vegetables
-slug: trainer-trainer
+slug: tomatoes
 date: 2021-01-06T00:00:00+00:00
 key: 'products'
 template: products

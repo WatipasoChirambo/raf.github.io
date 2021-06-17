@@ -30,17 +30,15 @@ export default function Home() {
               <h3>VISION</h3>
               <p>To be the leading agribusiness company while providing solid returns to the community</p>
         </div>
-          <div>
+          <div className={styles.mission}>
               <h3>MISSION</h3>
               <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
           </div>
-          <div>
+          <div className={styles.objectives}>
               <h3>OBJECTIVES</h3>
-              <ul>
-                <li>Providing quality livestock</li>
-                <li>Empowering local farmers with agribusiness skills</li>
-                <li>Improving irrigation systems among communities</li>
-              </ul>
+                <p>Providing quality livestock</p>
+                <p>Empowering local farmers with agribusiness skills</p>
+                <p>Improving irrigation systems among communities</p>
             </div>
         </div>
       </div>

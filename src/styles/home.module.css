@@ -156,12 +156,13 @@
     column-gap: 2rem;
     text-align:center;
   }
+  
   .company>div>p{
     color:white;
     align-items: flex-start;
   }
   .company>div>h3{
-    color:black;
+    color:black !important;
   }
   .company>div>:nth-child(1){
     box-shadow: 20px 30px;
@@ -177,6 +178,21 @@
     box-shadow: 20px 30px;
     color:white;
     background-color: #F3C583;
+  }
+  .objectives{
+    text-align: justify;
+    padding: 20px;
+  }
+  .vision{
+    text-align: justify;
+    padding: 20px;
+  }
+  .mission{
+    text-align: justify;
+    padding: 20px;
+  }
+  .vision>div>p{
+    padding-left: 20px;
   }
 
   @media only screen and (max-width: 320px){

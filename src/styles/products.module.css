@@ -14,17 +14,13 @@ h1{
   color:green;
   text-align:center;
 }
-h3{
-  color:gray;
-  text-align:center;
-}
 h2{
   color:green;
   text-align:center;
 }
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 80px;
   margin: 80px 20px;
 }
@@ -51,7 +47,7 @@ h2{
 }
 }
 @media only screen and (max-width: 375px){
-  .projects {
+  /* .projects {
   display: block;
 }
 h3{
@@ -106,7 +102,7 @@ footer>div{
 footer ul{
   text-align:center;
   display:block;
-}
+} */
 }
 
 @media only screen and (max-width: 375px){

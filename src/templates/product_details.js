@@ -8,15 +8,15 @@
      const {featuredImg} = data.markdownRemark.frontmatter
      return(
          <Layout>
-              <div className={styles.details}>
-                <div className={styles.featured}>
-                    <Img fluid={featuredImg.childImageSharp.fluid} />
-            </div>
-            <div>
-                <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}/>
-            </div>
+            <div className={styles.details}>
+              <div className={styles.featured}>
+                <Img fluid={featuredImg.childImageSharp.fluid} />
               </div>
-              </Layout>     
+              <div className={styles.info}>
+                <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}/>
+              </div>
+            </div>
+          </Layout>     
      )
  }
 

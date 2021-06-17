@@ -5,11 +5,14 @@ import '../styles/global.css';
 export default function Layout({ children }) {
     return (
         <div className="layout">
-            <Navbar/>
+            <div>
+                <Navbar/>
+            </div>
             <div className="content">
                 { children }
             </div>
-            <footer>
+            <div>
+                <footer>
                     <div>
                         <h2>Location</h2>
                         <p>Keza Offices</p>
@@ -36,11 +39,12 @@ export default function Layout({ children }) {
                     </div>
                     <div className="social-media">
                         <h2>Follow Us</h2>
-                        <p>
-                            instagram
-                        </p>
+                            <p>
+                                instagram
+                            </p>
                     </div>
-            </footer> 
+                </footer>
+            </div> 
         </div>
     )
 }

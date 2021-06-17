@@ -1,14 +1,14 @@
 ---
-title: Livestock
+title: Meat
 stack: Live Stock
-slug: the-dojo-coffee-house
+slug: Beef
 date: 2021-01-01T00:00:00+00:00
 key: 'products'
 template: products
 thumb: ../images/thumbs/pig.png
 featuredImg: ../images/featured/pig.png
 ---
-## Pigs
+## Beef
 
 A pig is any of the animals in the genus Sus.
 
