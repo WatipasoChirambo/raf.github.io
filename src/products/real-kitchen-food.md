@@ -2,13 +2,13 @@
 title: Rice
 stack: Rice
 slug: Rice
-date: 2021-01-02T00:00:00+00:00
+date: 2021-01-07T00:00:00+00:00
 key: 'products'
 template: products
 thumb: ../images/thumbs/rice.png
 featuredImg: ../images/featured/rice.png
 ---
-## Rice
+# Rice
 
 Lettuce (Lactuca sativa) is an annual plant of the daisy family, Asteraceae.
 

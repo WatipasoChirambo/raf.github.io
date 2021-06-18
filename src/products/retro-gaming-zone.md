@@ -8,7 +8,7 @@ template: products
 thumb: ../images/thumbs/potatoes.png
 featuredImg: ../images/featured/potatoes.png
 ---
-## Potatoes
+# Potatoes
 
 A potato is a root vegetable, the Solanum tuberosum.
 

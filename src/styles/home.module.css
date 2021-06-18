@@ -183,21 +183,49 @@
     text-align: justify;
     padding: 20px;
   }
+  .objectives>h3{
+    text-align: center;
+    color:black;
+  }
+  .objectives{
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+  }
   .vision{
     text-align: justify;
     padding: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   .mission{
     text-align: justify;
     padding: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
   }
-  .vision>div>p{
+  .mission>h3{
+    text-align: center;
+    color: black;
+  }
+  /* .vision>div>p{
     padding-left: 20px;
+  } */
+  .vision>h3{
+    text-align: center;
+    color:black;
   }
 
   @media only screen and (max-width: 320px){
     .header {
     display: block;
+  }
+  .company_core_businesses{
+    display:grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    text-align:center;
   }
   .slogan{
     display: block;
@@ -255,6 +283,9 @@
   .middle{
     display:block;
     text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:5px;
   }
   .middle_middle ul{
     list-style:none;
@@ -406,28 +437,6 @@
       display:block;
       text-align:center;
     }
-    .middle_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .company_core_businesses{
-      display:block;
-      text-align:center;
-    }
-    .left_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .right_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-     ul{
-      color:black;
-    }
      .left_middle{
        padding-top:5px;
        padding-bottom:5px;
@@ -443,6 +452,25 @@
        padding-bottom:5px;
        margin-bottom:5px;
      }
+     .left_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .right_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .middle_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    ul{
+      color:black;
+      list-style:dotted;
+    }
     }
     @media only screen and (max-width: 280px){
       .header {

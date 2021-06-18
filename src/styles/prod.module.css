@@ -1,9 +1,12 @@
 .wrapper{
     display:grid;
-    gap:100px;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     column-gap: 1rem;
     text-align:center;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
 }
 .top_side{
     display:grid;
@@ -66,12 +69,12 @@
     padding-right:15px;
 }
 .logistics{
-    border:1px solid #961086;
+    border:1px solid #102b96;
     text-align:justify;
     margin-bottom: 25px;
 }
 .logistics>div>h2{
-    color:#961086 !important;
+    color:#102b96 !important;
 }
 .logistics>div>p{
     padding-left:15px;
@@ -88,19 +91,24 @@
         display:block;
         text-align:center;
         margin-bottom:10px;
-        margin-top:10px;
+        margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
     }
         .livestock{
         display:block;
         background-color:white;
         margin-bottom:10px;
         margin-top:10px;
+        justify-content: left;
     }
     .vegetables{
     display:block;
         background-color:white;
         margin-bottom:10px;
         margin-top:10px;
+        justify-content: left;
 }
 .chemicals{
     display:block;
@@ -126,30 +134,38 @@
         display:block;
         text-align:center;
         margin-bottom:10px;
+        margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
     }
         .livestock{
         display:block;
         background-color:white;
         margin-bottom:10px;
         margin-top:10px;
+        justify-content: left;
     }
     .vegetables{
     display:block;
         background-color:white;
         margin-bottom:10px;
         margin-top:10px;
+        justify-content: left;
 }
 .chemicals{
     display:block;
         background-color:white;
         margin-bottom:10px;
         margin-top:10px;
+        justify-content: left;
 }
 .logistics{
     display: block;
     background-color: white;
     margin-bottom: 30px;
     margin-top:10px;
+    justify-content: left;
 }
 .top_side{
     display: block;
@@ -163,6 +179,10 @@
         display:block;
         text-align:center;
         margin-bottom:10px;
+        margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
     }
         .livestock{
         display:block;
@@ -200,6 +220,10 @@
         display:block;
         text-align:center;
         margin-bottom:10px;
+        margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
     }
         .livestock{
         display:block;
@@ -233,10 +257,11 @@
 }
 }
 .wrapper{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+
 }
 @media only screen and (max-width: 375px){
     .wrapper{
@@ -247,26 +272,26 @@
     .livestock{
     display:block;
     background-color:white;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:25px;
+    margin-top:25px;
 }
 .vegetables{
 display:block;
     background-color:white;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:25px;
+    margin-top:25px;
 }
 .chemicals{
 display:block;
     background-color:white;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:25px;
+    margin-top:25px;
 }
 .logistics{
 display: block;
 background-color: white;
-margin-bottom: 30px;
-margin-top:10px;
+margin-bottom:25px;
+    margin-top:25px;
 }
 .top_side{
 display: block;
@@ -276,8 +301,8 @@ display: block;
 }
 }
 .wrapper{
-margin-top: 10%;
-margin-bottom: 10%;
-margin-left: 20%;
-margin-right: 20%;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 10%;
+margin-right: 10%;
 }

@@ -11,13 +11,10 @@ export default function Service() {
         <div className={styles.top_side}>
             <div className={styles.chemicals}>
                 <div>
-                  <h2>Farm Chemicals</h2>
+                  <h2>Agricultural Chemicalls</h2>
                 </div>
                 <div>
                   <div>
-                    <h3>
-                      Agricultural Chemicalls 
-                    </h3>
                     <p>
                     This refers to any substance involved in the growth or utilization of 
                     any plant or animal of economic importance to humans.

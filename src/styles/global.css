@@ -31,9 +31,10 @@ h2{
   max-width: auto;
   background-color:white;
 }
-/* .content div h2{
-  color:green;
-} */
+.content{
+  display: grid;
+    grid-template-columns: 1fr;
+} 
 nav {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -83,18 +84,12 @@ footer ul{
   text-align:center;
 }
 .content{
-  margin-left:25px;
-  margin-right:25px;
+  display: grid;
+    grid-template-columns: 1fr;
 }
 
 
 @media only screen and (max-width: 320px) {
-  .layout {
-  max-width: auto;
-  background-color:white;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
   body {
     background: white;
   }
@@ -103,6 +98,7 @@ footer ul{
   margin-right:25px;
   margin-left:25px;
   width:100%;
+  
 }
 nav a {
   display: none;
@@ -117,13 +113,18 @@ nav .links {
   text-align: center;
   color:white;
   padding-top: 10px;
+  background-color: green;
 }
 nav .links:hover {
-  border-bottom:1px solid green;
+  border-bottom:1px solid white;
 }
 nav button .menu-button{
     height: 300;
     width: 300;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr;
 }
   footer{
     display:grid;
@@ -143,6 +144,10 @@ footer ul{
     
     display:block;
   }
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   nav {
   display:block;
   margin-right:25px;
@@ -150,7 +155,7 @@ footer ul{
   width:100%;
 }
 nav a {
-  display: inline-block;
+  display: block;
   margin-left: 20px;
   font-weight: 400;
   padding-top: 62px;
@@ -175,12 +180,20 @@ footer ul{
   text-align:center;
   display:block;
 }
+.content{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background: white;
     display:block;
+  }
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   nav {
   display:block;
@@ -228,6 +241,10 @@ footer ul{
     background: white;
     display:block;
   }
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   nav {
   display:block;
   margin-right:25px;
@@ -270,6 +287,10 @@ footer ul{
   body {
     background: white;
     display:block;
+  }
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   nav {
   display:block;

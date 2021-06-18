@@ -1,14 +1,14 @@
 ---
-title: Bean
-stack: Protein
-slug: beans
+title: Beef
+stack: Meat
+slug: meat
 date: 2021-01-04T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/beans.png
-featuredImg: ../images/featured/beans.png
+thumb: ../images/thumbs/beef.png
+featuredImg: ../images/featured/beef.png
 ---
-## Beans
+# Beans
 
 The soybean or soya bean (Glycine max) is a species of legume native to East Asia, widely grown for its edible bean.
 

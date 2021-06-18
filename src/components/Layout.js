@@ -33,10 +33,6 @@ export default function Layout({ children }) {
                             <p>Mary's Meals</p>
                             <p>Chibuku</p>
                     </div>
-                    <div>
-                        <h2>Website</h2>
-                        <p>www.ritzfarms.com</p>
-                    </div>
                     <div className="social-media">
                         <h2>Follow Us</h2>
                             <p>

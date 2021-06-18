@@ -1,14 +1,14 @@
 ---
-title: Tomatoes
-stack: Vegetables
-slug: tomatoes
-date: 2021-01-06T00:00:00+00:00
+title: Ground Nuts 
+stack: Ground Nuts
+slug: Ground Nuts
+date: 2021-01-01T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/tomatoes.png
-featuredImg: ../images/featured/tomatoes.png
+thumb: ../images/thumbs/nuts.png
+featuredImg: ../images/featured/nuts.png
 ---
-## Tomatoes
+# Ground Nuts
 
 The tomato is the edible berry of the plant Solanum lycopersicum.
 

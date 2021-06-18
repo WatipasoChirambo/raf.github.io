@@ -28,11 +28,12 @@
 .dets{
   margin-top:20px;
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, fr));
 }
 @media only screen and (max-width: 320px){
     .details{
-        display:block;
+        display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
       }
         .grid{
         display:block;
@@ -107,7 +108,8 @@
 }
 @media only screen and (max-width: 425px){
     .details{
-        display:block;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       }
         .wrapper{
         display:block;
@@ -147,7 +149,8 @@
 }
 @media only screen and (max-width: 280px){
     .details{
-        display:block;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       }
         .wrapper{
         display:block;

@@ -1,14 +1,14 @@
 ---
 title: Meat
-stack: Live Stock
+stack: Beef
 slug: Beef
-date: 2021-01-01T00:00:00+00:00
+date: 2021-01-08T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/pig.png
-featuredImg: ../images/featured/pig.png
+thumb: ../images/thumbs/meat.png
+featuredImg: ../images/featured/meat.png
 ---
-## Beef
+# Beef
 
 A pig is any of the animals in the genus Sus.
 
