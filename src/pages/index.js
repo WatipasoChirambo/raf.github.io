@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.slogan}>
           <div>
-          <h2>Ritz Farms & Property</h2>
+          <h2>Ritz Farms <br></br>& Property</h2>
             <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
             The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
             We are open to cater for our customers needs and wants, with the aim to inspire the world by showing that its very much possible to simultaneously deliver satisfaction and happiness to our stakeholders

@@ -8,7 +8,7 @@ export default function Home({ data }) {
     const products = data.Prods.nodes
     const contact = data.contact.siteMetadata.contact
   return (
-      <Layout className={styles.portfolio}>
+      <Layout>
           <div style={{ margin: `10px` }}>
               <h1 style={{ color: `green` }}>Products</h1>
               <h3 style={{ color: `gray` }}>Available products</h3>

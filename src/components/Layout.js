@@ -5,7 +5,7 @@ import '../styles/global.css';
 export default function Layout({ children }) {
     return (
         <div className="layout">
-            <div>
+            <div className="logo-image">
                 <Navbar/>
             </div>
             <div className="content">

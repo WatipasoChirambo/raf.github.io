@@ -9,10 +9,10 @@
      return(
          <Layout>
             <div className={styles.details}>
-                <div className={styles.featured}>
-                  <Img fluid={featuredImg.childImageSharp.fluid} />
-                </div>
                 <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}/>
+                <div>
+                  <Img  className={styles.html} fluid={featuredImg.childImageSharp.fluid} />
+                </div>
             </div>
           </Layout>     
      )

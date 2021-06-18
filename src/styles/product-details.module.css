@@ -20,9 +20,8 @@
   margin-right: 40px;
 }
 .featured {
-  margin-bottom: 40px;
-  width:auto;
-  height:auto;
+  width:500px;
+  height:500px;
   text-align:center;
 }
 .dets{
@@ -32,14 +31,8 @@
 }
 @media only screen and (max-width: 320px){
     .details{
-        display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-      }
-        .grid{
         display:block;
-        background-color:white;
-        margin-bottom:10px;
-        margin-top:10px;
+      }
     }
     .html{
     display:block;
@@ -64,7 +57,6 @@
 }
 .down_side{
     display: block;
-}
 }
 @media only screen and (max-width: 375px){
     .details{
@@ -108,8 +100,7 @@
 }
 @media only screen and (max-width: 425px){
     .details{
-        display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display:block;
       }
         .wrapper{
         display:block;
@@ -149,8 +140,7 @@
 }
 @media only screen and (max-width: 280px){
     .details{
-        display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display:block;
       }
         .wrapper{
         display:block;

@@ -11,7 +11,7 @@ export default function Service() {
         <div className={styles.top_side}>
             <div className={styles.chemicals}>
                 <div>
-                  <h2>Agricultural Chemicalls</h2>
+                  <h2>Agricultural Chemicals</h2>
                 </div>
                 <div>
                   <div>
@@ -20,7 +20,6 @@ export default function Service() {
                     any plant or animal of economic importance to humans.
                     </p>
                   </div>
-
                   <p>
                   Farmers have long understood the importance of replenishing the soil , 
                   and they have traditionally done so by natural means, using such materials as manure, dead fish, or compost

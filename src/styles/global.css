@@ -3,7 +3,6 @@
 * {
   padding: 0;
   text-decoration: none;
-  font-family: "Roboto";
 }
 html, body {
   min-height: 100%;
@@ -34,18 +33,18 @@ h2{
 .content{
   display: grid;
     grid-template-columns: 1fr;
+    margin: 50px;
 } 
 nav {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  margin-right:25px;
-  margin-left:25px;
-  margin-bottom:15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 nav .links {
   display: inline-block;
   text-align: right;
-  color:green;
+  color:white;
 }
 
 nav a {
@@ -92,74 +91,25 @@ footer ul{
 @media only screen and (max-width: 320px) {
   body {
     background: white;
-  }
-  nav {
-  display:block;
-  margin-right:25px;
-  margin-left:25px;
-  width:100%;
-  
-}
-nav a {
-  display: none;
-  margin-left: 20px;
-  font-weight: 400;
-  padding-top: 60px;
-  color:white;
-}
-nav .links {
-  display:flex;
-  float:left;
-  text-align: center;
-  color:white;
-  padding-top: 10px;
-  background-color: green;
-}
-nav .links:hover {
-  border-bottom:1px solid white;
-}
-nav button .menu-button{
-    height: 300;
-    width: 300;
-}
-.content{
-  display: grid;
-  grid-template-columns: 1fr;
-}
-  footer{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-top:15px;
-  gap:none;
-}
-footer ul{
-  text-align:center;
-  display:block;
-}
-}
-
-@media only screen and (max-width: 375px) {
-  body {
-    background: white;
-    
     display:block;
   }
+  .logo-image{
+    width: 300px;
+  }
   .content{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
   }
   nav {
   display:block;
   margin-right:25px;
-  margin-left:25px;
   width:100%;
 }
 nav a {
-  display: block;
+  display: inline-block;
   margin-left: 20px;
   font-weight: 400;
   padding-top: 62px;
-  color:green;
+  color:white;
 }
 nav .links {
   display:flex;
@@ -167,33 +117,34 @@ nav .links {
   text-align: center;
   color:white;
   padding-top: 10px;
-  margin-left: 10%;
 }
 nav .links:hover {
   border-bottom:1px solid white;
 }
   footer{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 footer ul{
   text-align:center;
   display:block;
 }
-.content{
-  display: grid;
-  grid-template-columns: 1fr;
 }
-}
-
 @media only screen and (max-width: 425px) {
   body {
     background: white;
     display:block;
   }
+  .logo-image{
+    width: 300px;
+  }
   .content{
-    display: grid;
-    grid-template-columns: 1fr;
+    display:grid;
   }
   nav {
   display:block;
@@ -214,7 +165,6 @@ nav .links {
   text-align: center;
   color:white;
   padding-top: 10px;
-  margin-left: 10%;
 }
 nav .links:hover {
   border-bottom:1px solid white;
@@ -241,9 +191,11 @@ footer ul{
     background: white;
     display:block;
   }
+  .logo-image{
+    width: 300px;
+  }
   .content{
-    display: grid;
-    grid-template-columns: 1fr;
+    display:grid;
   }
   nav {
   display:block;
@@ -264,7 +216,6 @@ nav .links {
   text-align: center;
   color:white;
   padding-top: 10px;
-  margin-left: 10%;
 }
 nav .links:hover {
   border-bottom:1px solid white;
@@ -288,9 +239,11 @@ footer ul{
     background: white;
     display:block;
   }
+  .logo-image{
+    width: 300px;
+  }
   .content{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
   }
   nav {
   display:block;
@@ -333,6 +286,9 @@ footer ul{
   
     .header {
       display: block;
+    }
+    .logo-image{
+      width: 300px;
     }
     .slogan{
       display: block;
@@ -380,4 +336,146 @@ footer ul{
        padding-bottom:5px;
        margin-bottom:5px;
      }
+    
     }
+    @media only screen and (max-width:  411px){
+      body {
+        background: white;
+        display:block;
+      }
+      .logo-image{
+        width: 300px;
+      }
+      .content{
+        display: block;
+      }
+      nav {
+      display:block;
+      margin-right:25px;
+      width:100%;
+    }
+    nav a {
+      display: inline-block;
+      margin-left: 20px;
+      font-weight: 400;
+      padding-top: 62px;
+      color:white;
+    }
+    nav .links {
+      display:flex;
+      float:left;
+      text-align: center;
+      color:white;
+      padding-top: 10px;
+    }
+    nav .links:hover {
+      border-bottom:1px solid white;
+    }
+      footer{
+      display:block;
+      margin-top:10px;
+    }
+    footer>div{
+      display:block;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    footer ul{
+      text-align:center;
+      display:block;
+    }
+  }
+  @media only screen and (max-width:  414px){
+    body {
+      background: white;
+      display:block;
+    }
+    .logo-image{
+      width: 300px;
+    }
+    .content{
+      display: block;
+    }
+    nav {
+    display:block;
+    margin-right:25px;
+    width:100%;
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 62px;
+    color:white;
+  }
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+  }
+  nav .links:hover {
+    border-bottom:1px solid white;
+  }
+    footer{
+    display:block;
+    margin-top:10px;
+  }
+  footer>div{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  footer ul{
+    text-align:center;
+    display:block;
+  }
+}
+@media only screen and (max-width:  320px){
+  body {
+    background: white;
+    display:block;
+  }
+  .logo-image{
+    width: 300px;
+  }
+  .content{
+    display: block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 0px;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
