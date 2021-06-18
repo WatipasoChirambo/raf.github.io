@@ -16,6 +16,11 @@ export default function Home() {
             The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
             We are open to cater for our customers needs and wants, with the aim to inspire the world by showing that its very much possible to simultaneously deliver satisfaction and happiness to our stakeholders
             </p>
+            <div>
+            <p>
+              <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
+            </p>
+            </div>
             <Link className={styles.btn} to="/Products">Available Products</Link>
           </div>
         </div>
@@ -53,8 +58,8 @@ export default function Home() {
             height={250}
             />
         <div className={styles.left_middle_info}>
-        <div>
-          </div>
+        {/* <div>
+          </div> */}
               <div>
                 <ul>
                   <li>Namiwawa:<span> Blantyre</span></li>

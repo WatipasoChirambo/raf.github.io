@@ -33,7 +33,7 @@ h2{
 .content{
   display: grid;
     grid-template-columns: 1fr;
-    margin: 50px;
+    margin: 35px;
 } 
 nav {
   display: grid;

@@ -21,7 +21,10 @@
   }
   .slogan>h2{
     text-align:left;
-    font-size: 3em;
+    font-size: 4em;
+  }
+  .slogan>div>p>b{
+    color: black;
   }
   .left_middle_background{
     background-color:green;
