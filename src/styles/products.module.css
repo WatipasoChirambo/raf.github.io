@@ -18,25 +18,25 @@ h2{
   color:green;
   text-align:center;
 }
-.projects {
+.products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 80px;
   margin: 80px 20px;
 }
-.projects h2{
+.products h2{
   text-align: center;
   margin: 20px auto 0px;
   font-weight: 500;
   color:green;
 }
-.projects h2 {
+.products h2 {
   text-align: center;
   margin: 20px auto 0px;
   font-weight: 500;
   color:green;
 }
-.projects p {
+.products p {
   color: gray;
   margin-top: 4px;
   text-align: center;
@@ -62,25 +62,25 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;
@@ -107,25 +107,25 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;
@@ -153,25 +153,25 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;
@@ -198,25 +198,25 @@ h2{
       color:green;
       text-align:center;
     }
-    .projects {
+    .products {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 80px;
       margin: 80px 20px;
     }
-    .projects h2{
+    .products h2{
       text-align: center;
       margin: 20px auto 0px;
       font-weight: 500;
       color:green;
     }
-    .projects h2 {
+    .products h2 {
       text-align: center;
       margin: 20px auto 0px;
       font-weight: 500;
       color:green;
     }
-    .projects p {
+    .products p {
       color: gray;
       margin-top: 4px;
       text-align: center;
@@ -244,32 +244,32 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;
   }
 }
 @media only screen and (max-width: 428px){
-  .projects {
+  .products {
     display: block;
   }
   h3{
@@ -340,25 +340,25 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;
@@ -388,25 +388,25 @@ h2{
     color:green;
     text-align:center;
   }
-  .projects {
+  .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 80px;
     margin: 80px 20px;
   }
-  .projects h2{
+  .products h2{
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects h2 {
+  .products h2 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
     color:green;
   }
-  .projects p {
+  .products p {
     color: gray;
     margin-top: 4px;
     text-align: center;

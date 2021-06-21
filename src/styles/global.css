@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
-
 * {
+  
   padding: 0;
   text-decoration: none;
 }
@@ -21,9 +21,6 @@ p {
   margin: 16px auto;
   line-height: 1.5em;
 }
-h2{
-  color:green;
-}
 
 /* layout & nav */
 .layout {
@@ -33,12 +30,17 @@ h2{
 .content{
   display: grid;
     grid-template-columns: 1fr;
-    margin: 35px;
+    margin: 30px;
 } 
+.smedia{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  row-gap: 20px;
+  padding: 20px;
+}
 nav {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  margin-left: 50px;
   margin-right: 50px;
 }
 nav .links {
@@ -102,6 +104,7 @@ footer ul{
   nav {
   display:block;
   margin-right:25px;
+  margin-left:25px;
   width:100%;
 }
 nav a {
@@ -248,6 +251,7 @@ footer ul{
   nav {
   display:block;
   margin-right:25px;
+  margin-left:25px;
   width:100%;
 }
 nav a {
@@ -282,7 +286,7 @@ footer ul{
   display:block;
 }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 414px){
   
     .header {
       display: block;
@@ -350,15 +354,15 @@ footer ul{
         display: block;
       }
       nav {
-      display:block;
-      margin-right:25px;
-      width:100%;
+        display:block;
+        margin-right:25px;
+  margin-left:25px;
     }
     nav a {
       display: inline-block;
       margin-left: 20px;
       font-weight: 400;
-      padding-top: 62px;
+      padding-top: 55px;
       color:white;
     }
     nav .links {
@@ -399,11 +403,12 @@ footer ul{
     nav {
     display:block;
     margin-right:25px;
+    margin-left:25px;
     width:100%;
   }
   nav a {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: 400;
     padding-top: 62px;
     color:white;
@@ -461,6 +466,53 @@ nav .links {
   color:white;
   padding-top: 10px;
   margin-left: 0px;
+}
+nav .links:hover {
+  border-bottom:1px solid white;
+}
+  footer{
+  display:block;
+  margin-top:10px;
+}
+footer>div{
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+footer ul{
+  text-align:center;
+  display:block;
+}
+}
+@media only screen and (max-width:  320px){
+  body {
+    background: white;
+    display:block;
+  }
+  .logo-image{
+    width: 300px;
+  }
+  .content{
+    display: block;
+  }
+  nav {
+  display:block;
+  margin-right:25px;
+  width:100%;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  color:white;
+}
+nav .links {
+  display:flex;
+  float:left;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 nav .links:hover {
   border-bottom:1px solid white;

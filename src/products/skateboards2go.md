@@ -8,7 +8,7 @@ template: products
 thumb: ../images/thumbs/beef.png
 featuredImg: ../images/featured/beef.png
 ---
-# Beans
+# Beef
 
 The soybean or soya bean (Glycine max) is a species of legume native to East Asia, widely grown for its edible bean.
 

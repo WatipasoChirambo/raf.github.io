@@ -16,7 +16,9 @@ export default function Navbar() {
   `)
   return (
     <nav>
-      <Img fluid={data.file.childImageSharp.fluid}/>
+      <div>
+        <Img fluid={data.file.childImageSharp.fluid}/>
+      </div>
         <div className="links">
             <Link to="/">Home</Link>
             <Link to="/Products">Products</Link>

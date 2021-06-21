@@ -1,14 +1,14 @@
 ---
-title: Meat
-stack: Beef
-slug: Beef
+title: Vegatable
+stack: Vegatable
+slug: Vegatable
 date: 2021-01-08T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/meat.png
-featuredImg: ../images/featured/meat.png
+thumb: ../images/thumbs/greens.png
+featuredImg: ../images/featured/greens.png
 ---
-# Beef
+# Vegetables
 
 A pig is any of the animals in the genus Sus.
 

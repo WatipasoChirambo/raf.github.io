@@ -28,7 +28,7 @@ export default function Service() {
             </div>
             <div className={styles.livestock}>
                 <div>
-                  <h2>Butchery</h2>
+                  <h2>Livestock</h2>
                 </div>
                 <div>
                   <p>

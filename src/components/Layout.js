@@ -1,6 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
+import { Link } from 'gatsby';
 import '../styles/global.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faFacebookF , faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Layout({ children }) {
     return (
@@ -35,9 +38,17 @@ export default function Layout({ children }) {
                     </div>
                     <div className="social-media">
                         <h2>Follow Us</h2>
-                            <p>
-                                instagram
-                            </p>
+                        <section className="smedia">
+                            <Link to="/">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </Link>
+                            <Link>
+                                <FontAwesomeIcon icon={faFacebookF} />
+                            </Link>
+                            <Link>
+                                <FontAwesomeIcon icon={faTwitter} />
+                            </Link>
+                        </section>
                     </div>
                 </footer>
             </div> 
