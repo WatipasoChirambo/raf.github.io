@@ -24,9 +24,9 @@ export default function Layout({ children }) {
                     </div>
                     <div>
                         <h2>Contact Details</h2>
-                        <p>edgar@ritzfarms.com</p>
-                        <p>(+265) 0999371 571</p>
-                        <p>(+265)0888113926</p>
+                        <p>info@ritzfarms.com</p>
+                        <p>Down Town boy(number1)</p>
+                        <p>Down Town boy(number2)</p>
                     </div>
                     <div>
                         <h2>Client References</h2>
@@ -40,13 +40,13 @@ export default function Layout({ children }) {
                         <h2>Follow Us</h2>
                         <section className="smedia">
                             <Link to="/">
-                                <FontAwesomeIcon icon={faInstagram} />
+                                <FontAwesomeIcon icon={faInstagram}/>
                             </Link>
-                            <Link>
-                                <FontAwesomeIcon icon={faFacebookF} />
+                            <Link to="/">
+                                <FontAwesomeIcon icon={faFacebookF}/>
                             </Link>
-                            <Link>
-                                <FontAwesomeIcon icon={faTwitter} />
+                            <Link to="/">
+                                <FontAwesomeIcon icon={faTwitter}/>
                             </Link>
                         </section>
                     </div>
