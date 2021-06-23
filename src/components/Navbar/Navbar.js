@@ -16,15 +16,15 @@ export default function Navbar() {
   `)
   return (
     <nav>
-      <div>
+      <div className="logo">
         <Img fluid={data.file.childImageSharp.fluid}/>
       </div>
-        <div className="links">
+      <div className="links">
             <Link to="/">Home</Link>
             <Link to="/Products">Products</Link>
             <Link to="/services">Services</Link>
             <Link to="/about">About</Link>
-        </div>
+      </div>
     </nav>
   )
 }
