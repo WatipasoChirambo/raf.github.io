@@ -21,6 +21,7 @@ p {
 
 /* layout & nav */
 .layout {
+  position: relative;
   max-width: auto;
   background-color:white;
 }
@@ -44,6 +45,8 @@ nav {
   grid-template-columns: 0.5fr 1fr;
 }
 nav .links {
+  /* position:fixed;
+  top: 0; */
   display: inline-block;
   text-align: right;
   color:white;
