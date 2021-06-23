@@ -36,7 +36,7 @@ export default function Home() {
         <div className={styles.vision}>
               <h3>VISION</h3>
               <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/mission.png" alt="ision"/>
+                <StaticImage src="../images/vision.png" alt="vision"/>
               </div>
               <p>To be the leading agribusiness company while providing solid returns to the community</p>
         </div>
@@ -50,7 +50,7 @@ export default function Home() {
           <div className={styles.objectives}>
               <h3>OBJECTIVES</h3>
               <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/mission.png" alt="objectives"/>
+                <StaticImage src="../images/target.png" alt="objectives"/>
               </div>
                 <p>Providing quality livestock</p>
                 <p>Empowering local farmers with agribusiness skills</p>
