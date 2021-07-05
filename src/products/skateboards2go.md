@@ -1,12 +1,12 @@
 ---
-title: Beef
-stack: Meat
+title: Meat
+stack: Beef
 slug: meat
 date: 2021-01-04T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/beef.png
-featuredImg: ../images/featured/beef.png
+thumb: "../images/thumbs/beef.png"
+featuredImg: "../images/featured/beef.png"
 ---
 # Beef
 

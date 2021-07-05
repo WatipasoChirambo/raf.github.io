@@ -13,6 +13,13 @@
   .heading_bruv>h2{
     text-align:center;
   }
+  .main_hero{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    width: 100%;
+    height: 300px;
+  }
   .slogan{
     display:grid;
     grid-template-columns:auto auto;
@@ -22,13 +29,15 @@
   .slogan>div>p>b{
     color: black;
   }
-  .hero>p{
-    position: absolute;
-    top: 170px;
+  .hero_text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero_time{
+    margin-bottom: 10px;
   }
   .hero>h2{
     text-align:left;
-    font-size: 5em;
   }
   
   .left_middle_background{
@@ -36,7 +45,7 @@
     margin:10px;
   }
   .header h1{
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 400;
     text-align:left;
     color:green;
@@ -80,6 +89,8 @@
   .left_middle{
     color:black;
     border:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .left_middle_info{
     display:grid;
@@ -92,7 +103,7 @@
     margin-left:35%;
   }
   .left_middle h2{
-    color: rgba(0, 128, 0, 0.5);
+    color: black;
   }
   .left_middle_image{
     width:auto;
@@ -101,6 +112,8 @@
   .right_middle{
     color:black;
     border:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .left_middle_info{
     display:grid;
@@ -115,7 +128,10 @@
     margin-left:35%;
   }
   .right_middle h2{
-    color: rgba(0, 128, 0, 0.5);
+    color: black;
+  }
+  .right_middle_info{
+    
   }
   .right_middle_image{
     width:auto;
@@ -125,11 +141,15 @@
   .middle_middle{
     color:black;
     border:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .middle_middle_image{
     width:auto;
     height:200px;
     margin-bottom:15px;
+  }
+  .middle_middle_info{
   }
   .middle_middle ul{
     list-style:none;
@@ -140,7 +160,7 @@
     padding-top:5px;
   }
   .middle_middle h2{
-    color: rgba(0, 128, 0, 0.5);
+    color: black;
   }
   .company{
     margin-bottom:10px;
@@ -194,36 +214,42 @@
   }
   .objectives>h3{
     text-align: center;
-    color:black;
+    color: black;
   }
   .objectives{
     text-align: justify;
     padding: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    border:1px solid gainsboro;
+    border-radius: 25px;
+  }
+  .objectives>p{
+    text-align: center;
   }
   .vision{
     text-align: justify;
     padding: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    border:1px solid gainsboro;
+    border-radius: 25px;
   }
   .mission{
     text-align: justify;
     padding: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    border:1px solid gainsboro;
+    border-radius: 25px;
   }
   .mission>h3{
     text-align: center;
     color: black;
   }
-  /* .vision>div>p{
-    padding-left: 20px;
-  } */
   .vision>h3{
     text-align: center;
-    color:black;
+    color: black;
   }
 
   @media only screen and (max-width: 320px){
@@ -284,7 +310,7 @@
   }
 
   }
-    @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 375px){
     .header {
     display: block;
   }
@@ -604,4 +630,56 @@
     color:black;
     list-style:dotted;
   }
+}
+@media only screen and (max-width: 360px){
+  .header {
+  display: block;
+}
+.slogan{
+  display: block;
+  text-align: left;
+  padding: 20px;
+}
+.hero>p{
+  position: absolute;
+  top: 170px;
+}
+.middle{
+  display:block;
+  text-align:center;
+}
+ .left_middle{
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom:5px;
+ }
+ .middle_middle{
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom:5px;
+ }
+ .right_middle{
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-bottom:5px;
+ }
+ .left_middle ul{
+  list-style:none;
+  text-align:left;
+  margin-left:35%;
+}
+.right_middle ul{
+  list-style:none;
+  text-align:left;
+  margin-left:35%;
+}
+.middle_middle ul{
+  list-style:none;
+  text-align:left;
+  margin-left:35%;
+}
+ul{
+  color:black;
+  list-style:dotted;
+}
 }

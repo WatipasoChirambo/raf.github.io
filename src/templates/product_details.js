@@ -4,15 +4,16 @@
  import * as styles from '../styles/product-details.module.css' 
  import {graphql} from 'gatsby'
  export default function ProductDetails({data}){
+    //  const {stack} = data.markdownRemark.frontmatter
      const {html} = data.markdownRemark
      const {featuredImg} = data.markdownRemark.frontmatter
      return(
          <Layout>
             <div className={styles.details}>
-                <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}/>
-                <div>
+               <div>
                   <Img  className={styles.html} fluid={featuredImg.childImageSharp.fluid} />
                 </div>
+                <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}/>
             </div>
           </Layout>     
      )

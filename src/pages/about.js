@@ -4,6 +4,7 @@ import * as styles from '../styles/about.module.css'
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function About() {
+  
   return (
       <Layout>
     <section className={styles.about}>

@@ -43,7 +43,9 @@
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     color: black;
     align-items: center;
-    padding-left: 10%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .reference_list>div>p{
     font-size: 2.5em;
@@ -96,6 +98,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
     .about>div>h1{
-        padding-top: 126px;
+        padding-top: 30px;
     }
 }

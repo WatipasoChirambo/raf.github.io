@@ -9,9 +9,11 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-image`,
+    `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -32,6 +34,6 @@ module.exports = {
     description:'Ritz farms and property investment limited sets out itself to be a leading agribusiness in malawi',
     copyright:'copyright 2021 Watipaso Chirambo',
     contact: 'ritzfarms@gmail.com',
-    image:"../rf/static/logo.jpg"
+    image:"../rf/static/logo.png"
   }
 }

@@ -5,8 +5,8 @@ slug: Legumes
 date: 2021-01-06T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/beans.png
-featuredImg: ../images/featured/beans.png
+thumb: "../images/thumbs/beans.png"
+featuredImg: "../images/featured/beans.png"
 ---
 # Beans
 
