@@ -1,14 +1,14 @@
 ---
-title: Livestock
-stack: Live Stock
-slug: the-dojo-coffee-house
-date: 2021-01-01T00:00:00+00:00
+title: Vegatable
+stack: Vegatable
+slug: Vegatable
+date: 2021-01-08T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/pig.png
-featuredImg: ../images/featured/pig.png
+thumb: ../images/thumbs/greens.png
+featuredImg: ../images/featured/greens.png
 ---
-## Pigs
+# Vegetables
 
 A pig is any of the animals in the genus Sus.
 

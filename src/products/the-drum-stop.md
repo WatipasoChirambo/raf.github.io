@@ -1,14 +1,14 @@
 ---
-title: Onions
-stack: Vegetables
-slug: the-drum-stop
-date: 2021-01-05T00:00:00+00:00
+title: Legumes
+stack: Beans
+slug: Legumes
+date: 2021-01-06T00:00:00+00:00
 key: 'products'
 template: products
-thumb: ../images/thumbs/onions.png
-featuredImg: ../images/featured/onions.png
+thumb: ../images/thumbs/beans.png
+featuredImg: ../images/featured/beans.png
 ---
-## Onions
+# Beans
 
 he onion (Allium cepa L., from Latin cepa "onion"), also known as the bulb onion or common onion.
 

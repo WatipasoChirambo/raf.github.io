@@ -1,15 +1,21 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
+import { Link } from 'gatsby';
 import '../styles/global.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faFacebookF , faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Layout({ children }) {
     return (
         <div className="layout">
-            <Navbar/>
+            <div className="logo-image">
+                <Navbar/>
+            </div>
             <div className="content">
                 { children }
             </div>
-            <footer>
+            <div>
+                <footer>
                     <div>
                         <h2>Location</h2>
                         <p>Keza Offices</p>
@@ -18,29 +24,32 @@ export default function Layout({ children }) {
                     </div>
                     <div>
                         <h2>Contact Details</h2>
-                        <p>edgar@ritzfarms.com</p>
-                        <p>(+265) 0999371 571</p>
-                        <p>(+265)0888113926</p>
+                        <p>info@ritzfarms.com</p>
+                        <p>Down Town boy(number1)</p>
+                        <p>Down Town boy(number2)</p>
                     </div>
                     <div>
                         <h2>Client References</h2>
                             <p>Action Aid Malawi</p>
-                            <p>Peoples</p>
                             <p>Islamic relief</p>
-                            <p>Mary's Meals</p>
                             <p>Chibuku</p>
-                    </div>
-                    <div>
-                        <h2>Website</h2>
-                        <p>www.ritzfarms.com</p>
                     </div>
                     <div className="social-media">
                         <h2>Follow Us</h2>
-                        <p>
-                            instagram
-                        </p>
+                        <section className="smedia">
+                            <Link to="/" style={{ color: `white` }}>
+                                <FontAwesomeIcon icon={faInstagram}/>
+                            </Link>
+                            <Link to="/" style={{ color: `white` }}>
+                                <FontAwesomeIcon icon={faFacebookF}/>
+                            </Link>
+                            <Link to="/" style={{ color: `white` }}>
+                                <FontAwesomeIcon icon={faTwitter}/>
+                            </Link>
+                        </section>
                     </div>
-            </footer> 
+                </footer>
+            </div> 
         </div>
     )
 }

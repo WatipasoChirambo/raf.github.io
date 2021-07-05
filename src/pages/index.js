@@ -11,12 +11,19 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.slogan}>
           <div>
-          <h2>Ritz Farms & Property</h2>
+            <div className={styles.hero}>
+          <h1>Ritz Farms <br></br>& Property Investments Limited</h1>
+            </div>
             <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
             The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
-            We are open to cater for our customers needs and wants, with the aim to inspire the world by showing that its very much possible to simultaneously deliver satisfaction and happiness to our stakeholders
             </p>
-            <Link className={styles.btn} to="/Products">Available Products</Link>
+            <div>
+            <p>
+              <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
+            </p>
+            <p className={styles.fresh}>A fresh green vision for your life</p>
+            </div>
+            <Link className={styles.btn} to="/about">Read More</Link>
           </div>
         </div>
         <div>
@@ -26,21 +33,28 @@ export default function Home() {
       <div className={styles.company}>
           <h1>COMPANY INFO</h1>
         <div className={styles.company_core_businesses}>
-        <div>
+        <div className={styles.vision}>
               <h3>VISION</h3>
+              <div style={{ textAlign: `center` }}>
+                <StaticImage src="../images/vision.png" alt="vision"/>
+              </div>
               <p>To be the leading agribusiness company while providing solid returns to the community</p>
-            </div>
-            <div>
+        </div>
+          <div className={styles.mission}>
               <h3>MISSION</h3>
-              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
+              <div style={{ textAlign: `center` }}>
+              <StaticImage src="../images/mission.png" alt="mission"/>
             </div>
-            <div>
+              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
+          </div>
+          <div className={styles.objectives}>
               <h3>OBJECTIVES</h3>
-              <ul>
-                <li>Providing quality livestock</li>
-                <li>Empowering local farmers with agribusiness skills</li>
-                <li>Improving irrigation systems among communities</li>
-              </ul>
+              <div style={{ textAlign: `center` }}>
+                <StaticImage src="../images/target.png" alt="objectives"/>
+              </div>
+                <p>Providing quality livestock</p>
+                <p>Empowering local farmers with agribusiness skills</p>
+                <p>Improving irrigation systems among communities</p>
             </div>
         </div>
       </div>
@@ -55,8 +69,6 @@ export default function Home() {
             height={250}
             />
         <div className={styles.left_middle_info}>
-        <div>
-          </div>
               <div>
                 <ul>
                   <li>Namiwawa:<span> Blantyre</span></li>

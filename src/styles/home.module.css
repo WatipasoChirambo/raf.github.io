@@ -19,15 +19,24 @@
     text-align:left;
     padding:20px;
   }
-  .slogan>h2{
-    text-align:left;
+  .slogan>div>p>b{
+    color: black;
   }
+  .hero>p{
+    position: absolute;
+    top: 170px;
+  }
+  .hero>h2{
+    text-align:left;
+    font-size: 5em;
+  }
+  
   .left_middle_background{
     background-color:green;
     margin:10px;
   }
-  .header h2 {
-    font-size: 3em;
+  .header h1{
+    font-size: 3.5em;
     font-weight: 400;
     text-align:left;
     color:green;
@@ -37,22 +46,27 @@
   }
   .btn {
     display: inline-block;
-    background: green;
+    background:green;
     padding: 10px 16px;
     border-radius: 10px;
-    margin-top: 10px;
-    font-weight: 500;
+    font-weight: 1000;
     color:white;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .btn:hover{
     color:green;
     background:white;
     border:1px solid green;
   }
+  .fresh{
+    color: green;
+  }
   .middle{
     margin-top:5px;
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     text-align:center;
     gap:10px;
   }
@@ -78,7 +92,7 @@
     margin-left:35%;
   }
   .left_middle h2{
-    color:gray;
+    color: rgba(0, 128, 0, 0.5);
   }
   .left_middle_image{
     width:auto;
@@ -101,7 +115,7 @@
     margin-left:35%;
   }
   .right_middle h2{
-    color:gray;
+    color: rgba(0, 128, 0, 0.5);
   }
   .right_middle_image{
     width:auto;
@@ -126,10 +140,11 @@
     padding-top:5px;
   }
   .middle_middle h2{
-    color:gray;
+    color: rgba(0, 128, 0, 0.5);
   }
   .company{
-    margin-top:5px;
+    margin-bottom:10px;
+    margin-top:10px;
     display:grid;
     grid-template-rows:1fr;
     column-gap: 2rem;
@@ -152,22 +167,83 @@
   }
   .company_core_businesses{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 2rem;
     text-align:center;
   }
+  
+  .company>div>p{
+    color:white;
+    align-items: flex-start;
+  }
   .company>div>h3{
-    color:green;
+    color:green !important;
+  }
+  .company>div>:nth-child(1){
+    color:rgb(0, 0, 0);
+  }
+  .company>div>:nth-child(2){
+    color:rgb(0, 0, 0);
+  }
+  .company>div>:nth-child(3){
+    color:rgb(0, 0, 0);
+  }
+  .objectives{
+    text-align: justify;
+    padding: 20px;
+  }
+  .objectives>h3{
+    text-align: center;
+    color:black;
+  }
+  .objectives{
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .vision{
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .mission{
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .mission>h3{
+    text-align: center;
+    color: black;
+  }
+  /* .vision>div>p{
+    padding-left: 20px;
+  } */
+  .vision>h3{
+    text-align: center;
+    color:black;
   }
 
   @media only screen and (max-width: 320px){
     .header {
     display: block;
   }
+  .company_core_businesses{
+    display:grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    text-align:center;
+  }
   .slogan{
     display: block;
     text-align: left;
     padding: 20px;
+  }
+  .hero>p{
+    position: absolute;
+    top: 170px;
   }
   .middle{
     display:block;
@@ -217,9 +293,16 @@
     text-align: left;
     padding: 20px;
   }
+  .hero>p{
+    position: absolute;
+    top: 170px;
+  }
   .middle{
     display:block;
     text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:5px;
   }
   .middle_middle ul{
     list-style:none;
@@ -267,6 +350,10 @@
     display: block;
     text-align: left;
     padding: 20px;
+  }
+  .hero>p{
+    position: absolute;
+    top: 170px;
   }
   .middle{
     display:block;
@@ -319,6 +406,10 @@
     text-align: left;
     padding: 20px;
   }
+  .hero>p{
+    position: absolute;
+    top: 170px;
+  }
   .middle{
     display:block;
     text-align:center;
@@ -367,31 +458,13 @@
       text-align: left;
       padding: 20px;
     }
+    .hero>p{
+      position: absolute;
+      top: 170px;
+    }
     .middle{
       display:block;
       text-align:center;
-    }
-    .middle_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .company_core_businesses{
-      display:block;
-      text-align:center;
-    }
-    .left_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .right_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-     ul{
-      color:black;
     }
      .left_middle{
        padding-top:5px;
@@ -408,6 +481,25 @@
        padding-bottom:5px;
        margin-bottom:5px;
      }
+     .left_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .right_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    .middle_middle ul{
+      list-style:none;
+      text-align:left;
+      margin-left:35%;
+    }
+    ul{
+      color:black;
+      list-style:dotted;
+    }
     }
     @media only screen and (max-width: 280px){
       .header {
@@ -417,6 +509,10 @@
       display: block;
       text-align: left;
       padding: 20px;
+    }
+    .hero>p{
+      position: absolute;
+      top: 170px;
     }
     .middle{
       display:block;
@@ -457,3 +553,55 @@
       list-style:dotted;
     }
   }
+  @media only screen and (max-width: 414px){
+    .header {
+    display: block;
+  }
+  .slogan{
+    display: block;
+    text-align: left;
+    padding: 20px;
+  }
+  .hero>p{
+    position: absolute;
+    top: 170px;
+  }
+  .middle{
+    display:block;
+    text-align:center;
+  }
+   .left_middle{
+     padding-top:5px;
+     padding-bottom:5px;
+     margin-bottom:5px;
+   }
+   .middle_middle{
+     padding-top:5px;
+     padding-bottom:5px;
+     margin-bottom:5px;
+   }
+   .right_middle{
+     padding-top:5px;
+     padding-bottom:5px;
+     margin-bottom:5px;
+   }
+   .left_middle ul{
+    list-style:none;
+    text-align:left;
+    margin-left:35%;
+  }
+  .right_middle ul{
+    list-style:none;
+    text-align:left;
+    margin-left:35%;
+  }
+  .middle_middle ul{
+    list-style:none;
+    text-align:left;
+    margin-left:35%;
+  }
+  ul{
+    color:black;
+    list-style:dotted;
+  }
+}

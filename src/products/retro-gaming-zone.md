@@ -1,14 +1,14 @@
 ---
 title: Potatoes
-stack: Vegetables
-slug: retro-gaming-zone
+stack: Potatoes
+slug: potatoes
 date: 2021-01-03T00:00:00+00:00
 key: 'products'
 template: products
 thumb: ../images/thumbs/potatoes.png
 featuredImg: ../images/featured/potatoes.png
 ---
-## Potatoes
+# Potatoes
 
 A potato is a root vegetable, the Solanum tuberosum.
 

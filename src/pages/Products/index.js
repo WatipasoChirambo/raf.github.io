@@ -8,11 +8,11 @@ export default function Home({ data }) {
     const products = data.Prods.nodes
     const contact = data.contact.siteMetadata.contact
   return (
-      <Layout className={styles.portfolio}>
+      <Layout>
           <div style={{ margin: `10px` }}>
-              <h1 style={{ color: `green` }}>Products</h1>
-              <h3 style={{ color: `gray` }}>Available products</h3>
-              <div className={styles.projects}>
+              <h1 style={{  color: `green` }}>Products</h1>
+              <h3 style={{ color: `gray`,textAlign: `center` }}>Available products</h3>
+              <div className={styles.products}>
                   {products.map(product =>(
                       <Link to={"/Products/"+ product.frontmatter.slug} key={product.id}>
                           <div>

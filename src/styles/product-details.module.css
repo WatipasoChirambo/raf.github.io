@@ -1,7 +1,7 @@
 .details{
   display:grid;
   grid-template-rows:1fr;
-  grid-template-columns:1fr 1fr
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .details h2 {
   color:green;
@@ -20,28 +20,19 @@
   margin-right: 40px;
 }
 .featured {
-  margin-bottom: 40px;
-  width:auto;
-  height:auto;
+  width:500px;
+  height:500px;
   text-align:center;
 }
 .dets{
   margin-top:20px;
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, fr));
 }
 @media only screen and (max-width: 320px){
-        .details{
+    .details{
         display:block;
-        text-align:center;
-        margin-bottom:10px;
-        margin-top:10px;
-    }
-        .grid{
-        display:block;
-        background-color:white;
-        margin-bottom:10px;
-        margin-top:10px;
+      }
     }
     .html{
     display:block;
@@ -67,8 +58,10 @@
 .down_side{
     display: block;
 }
-}
 @media only screen and (max-width: 375px){
+    .details{
+        display:block;
+      }
         .wrapper{
         display:block;
         text-align:center;
@@ -106,6 +99,9 @@
 }
 }
 @media only screen and (max-width: 425px){
+    .details{
+        display:block;
+      }
         .wrapper{
         display:block;
         text-align:center;
@@ -143,6 +139,9 @@
 }
 }
 @media only screen and (max-width: 280px){
+    .details{
+        display:block;
+      }
         .wrapper{
         display:block;
         text-align:center;
