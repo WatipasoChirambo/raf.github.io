@@ -14,47 +14,55 @@ html, body {
 body {
   background: white;
 }
-h3{
-  color: black;
-}
+
 p {
-  margin: 16px auto;
   line-height: 1.5em;
 }
 
 /* layout & nav */
 .layout {
+  position: relative;
   max-width: auto;
   background-color:white;
 }
 .content{
   display: grid;
-    grid-template-columns: 1fr;
-    margin: 30px;
+  grid-template-columns: 1fr;
+  margin: 30px;
 } 
 .smedia{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
   row-gap: 20px;
   padding: 20px;
+  color: white;
+}
+.smedia>Link{
+  color: white;
 }
 nav {
-  display: grid;
+  display:grid;
   grid-template-columns: 0.5fr 1fr;
-  margin-right: 50px;
 }
 nav .links {
+  /* position:fixed;
+  top: 0; */
   display: inline-block;
   text-align: right;
   color:white;
+  margin-right: 50px;
+}
+nav .logo{
+  width: auto;
+  margin-left: 10px;
 }
 
 nav a {
   display: inline-block;
-  margin-left: 20px;
   font-weight: 400;
-  padding-top: 62px;
   color:green;
+  padding-left: 15px;
+  padding-top: 50px;
 }
 nav a:hover {
   border-bottom:1px solid green;
@@ -89,62 +97,13 @@ footer ul{
     grid-template-columns: 1fr;
 }
 
-
-@media only screen and (max-width: 320px) {
-  body {
-    background: white;
-    display:block;
-  }
-  .logo-image{
-    width: 300px;
-  }
-  .content{
-    display: block;
-  }
-  nav {
-  display:block;
-  margin-right:25px;
-  margin-left:25px;
-  width:100%;
-}
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  font-weight: 400;
-  padding-top: 62px;
-  color:white;
-}
-nav .links {
-  display:flex;
-  float:left;
-  text-align: center;
-  color:white;
-  padding-top: 10px;
-}
-nav .links:hover {
-  border-bottom:1px solid white;
-}
-  footer{
-  display:block;
-  margin-top:10px;
-}
-footer>div{
-  display:block;
-  padding-top:10px;
-  padding-bottom:10px;
-}
-footer ul{
-  text-align:center;
-  display:block;
-}
-}
 @media only screen and (max-width: 425px) {
   body {
     background: white;
     display:block;
   }
   .logo-image{
-    width: 300px;
+    width: 356px;
   }
   .content{
     display:grid;
@@ -157,7 +116,7 @@ footer ul{
 }
 nav a {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 5px;
   font-weight: 400;
   padding-top: 10px;
   color:green;
@@ -195,7 +154,7 @@ footer ul{
     display:block;
   }
   .logo-image{
-    width: 300px;
+    width: 356px;
   }
   .content{
     display:grid;
@@ -208,9 +167,8 @@ footer ul{
 }
 nav a {
   display: inline-block;
-  margin-left: 20px;
   font-weight: 400;
-  padding-top: 62px;
+  padding-top: 20px;
   color:white;
 }
 nav .links {
@@ -243,7 +201,7 @@ footer ul{
     display:block;
   }
   .logo-image{
-    width: 300px;
+    width: 356px;
   }
   .content{
     display: block;
@@ -256,9 +214,8 @@ footer ul{
 }
 nav a {
   display: inline-block;
-  margin-left: 20px;
   font-weight: 400;
-  padding-top: 62px;
+  padding-top: 20px;
   color:white;
 }
 nav .links {
@@ -288,11 +245,19 @@ footer ul{
 }
 @media only screen and (max-width: 414px){
   
+  nav .links {
+    display:flex;
+    float:left;
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    margin-left: 10%;
+  }
     .header {
       display: block;
     }
     .logo-image{
-      width: 300px;
+      width: 356px;
     }
     .slogan{
       display: block;
@@ -348,7 +313,7 @@ footer ul{
         display:block;
       }
       .logo-image{
-        width: 300px;
+        width: 356px;
       }
       .content{
         display: block;
@@ -362,7 +327,7 @@ footer ul{
       display: inline-block;
       margin-left: 20px;
       font-weight: 400;
-      padding-top: 55px;
+      padding-top: 20px;
       color:white;
     }
     nav .links {
@@ -371,6 +336,7 @@ footer ul{
       text-align: center;
       color:white;
       padding-top: 10px;
+      margin-left: -15px;
     }
     nav .links:hover {
       border-bottom:1px solid white;
@@ -395,7 +361,7 @@ footer ul{
       display:block;
     }
     .logo-image{
-      width: 300px;
+      width: 325px;
     }
     .content{
       display: block;
@@ -410,7 +376,7 @@ footer ul{
     display: inline-block;
     margin-left: 10px;
     font-weight: 400;
-    padding-top: 62px;
+    padding-top: 20px;
     color:white;
   }
   nav .links {
@@ -419,6 +385,8 @@ footer ul{
     text-align: center;
     color:white;
     padding-top: 10px;
+    margin-left: -15px;
+
   }
   nav .links:hover {
     border-bottom:1px solid white;
@@ -443,7 +411,7 @@ footer ul{
     display:block;
   }
   .logo-image{
-    width: 300px;
+    width: 274px;
   }
   .content{
     display: block;
@@ -465,7 +433,7 @@ nav .links {
   text-align: center;
   color:white;
   padding-top: 10px;
-  margin-left: 0px;
+  margin-left: -30px;
 }
 nav .links:hover {
   border-bottom:1px solid white;
@@ -483,51 +451,55 @@ footer ul{
   text-align:center;
   display:block;
 }
-}
-@media only screen and (max-width:  320px){
-  body {
-    background: white;
-    display:block;
-  }
-  .logo-image{
-    width: 300px;
-  }
-  .content{
-    display: block;
-  }
-  nav {
-  display:block;
-  margin-right:25px;
-  width:100%;
-}
-nav a {
-  display: inline-block;
-  margin-left: 20px;
-  font-weight: 400;
-  color:white;
-}
-nav .links {
-  display:flex;
-  float:left;
-  text-align: center;
-  color:white;
-  padding-top: 10px;
-  margin-left: 10px;
-}
-nav .links:hover {
-  border-bottom:1px solid white;
-}
-  footer{
-  display:block;
-  margin-top:10px;
-}
-footer>div{
-  display:block;
-  padding-top:10px;
-  padding-bottom:10px;
-}
-footer ul{
-  text-align:center;
-  display:block;
-}
-}
+}  
+@media only screen and (max-width:  360px){
+      body {
+        background: white;
+        display:block;
+      }
+      .logo-image{
+        width: 270px;
+      }
+      .content{
+        display: block;
+      }
+      nav {
+      display:block;
+      margin-right:25px;
+      width:100%;
+    }
+    nav a {
+      display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: green;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+    }
+    nav .links {
+      display:flex;
+      float:left;
+      text-align: center;
+      color:white;
+      padding-top: 10px;
+      margin-left: -22px;
+    }
+    nav .links:hover {
+      border-bottom:1px solid white;
+    }
+      footer{
+      display:block;
+      margin-top:10px;
+    }
+    footer>div{
+      display:block;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    footer ul{
+      text-align:center;
+      display:block;
+    }
+    }
+    

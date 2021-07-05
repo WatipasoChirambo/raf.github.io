@@ -12,7 +12,7 @@ export default function About() {
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
-          <h2>Aim</h2>
+          <h2>Goal</h2>
           <div>
           <StaticImage src="../images/aim.png" alt="farmer"/>
           </div>

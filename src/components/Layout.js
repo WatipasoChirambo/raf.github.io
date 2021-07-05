@@ -31,21 +31,19 @@ export default function Layout({ children }) {
                     <div>
                         <h2>Client References</h2>
                             <p>Action Aid Malawi</p>
-                            <p>Peoples</p>
                             <p>Islamic relief</p>
-                            <p>Mary's Meals</p>
                             <p>Chibuku</p>
                     </div>
                     <div className="social-media">
                         <h2>Follow Us</h2>
                         <section className="smedia">
-                            <Link to="/">
+                            <Link to="/" style={{ color: `white` }}>
                                 <FontAwesomeIcon icon={faInstagram}/>
                             </Link>
-                            <Link to="/">
+                            <Link to="/" style={{ color: `white` }}>
                                 <FontAwesomeIcon icon={faFacebookF}/>
                             </Link>
-                            <Link to="/">
+                            <Link to="/" style={{ color: `white` }}>
                                 <FontAwesomeIcon icon={faTwitter}/>
                             </Link>
                         </section>
