@@ -130,9 +130,6 @@
   .right_middle h2{
     color: black;
   }
-  .right_middle_info{
-    
-  }
   .right_middle_image{
     width:auto;
     height:200px;
@@ -148,8 +145,6 @@
     width:auto;
     height:200px;
     margin-bottom:15px;
-  }
-  .middle_middle_info{
   }
   .middle_middle ul{
     list-style:none;
