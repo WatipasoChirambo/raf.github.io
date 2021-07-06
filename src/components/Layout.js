@@ -45,8 +45,8 @@ export default function Layout({ children }) {
                             </Link>
                         </section>
                 </div>
-                <div>
-                   <p>&copy; 2021 www.Ritzfarms.com</p>
+                <div className="copyright">
+                   <p>&copy; 2021 www.ritzfarms.com</p>
                 </div>
             </footer>
         </div>
