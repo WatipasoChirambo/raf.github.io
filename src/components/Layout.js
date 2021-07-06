@@ -46,7 +46,7 @@ export default function Layout({ children }) {
                         </section>
                 </div>
                 <div>
-                    copyright
+                   <p>&copy; 2021 www.Ritzfarms.com</p>
                 </div>
             </footer>
         </div>
