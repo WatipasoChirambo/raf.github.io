@@ -4,6 +4,9 @@
     grid-template-rows:1fr;
     grid-gap: 40px;
   }
+  .container{
+    max-width: 100vw !important;
+}
   .header >div>h2{
     color:green;
   }
@@ -30,14 +33,19 @@
     color: black;
   }
   .hero_text{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .hero{
+      color: green;
   }
   .hero_time{
     margin-bottom: 10px;
+    margin-top: 10px;
   }
-  .hero>h2{
+  .hero>h1{
     text-align:left;
+    color: green;
   }
   
   .left_middle_background{
@@ -45,29 +53,49 @@
     margin:10px;
   }
   .header h1{
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 400;
     text-align:left;
-    color:green;
+    color:black;
   }
   .header p{
     color:gray;
   }
   .btn {
-    display: inline-block;
+    text-align: center;
+    display: block;
+    float: right;
     background:green;
-    padding: 10px 16px;
-    border-radius: 10px;
-    font-weight: 1000;
     color:white;
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 124px;
   }
   .btn:hover{
     color:green;
     background:white;
     border:1px solid green;
+  }
+  .prod_btn{
+    text-align: center;
+    display: block;
+    float: left;
+    max-width: auto;
+    background:white;
+    color:green;
+    border-radius: 50px;
+    border: 0.5px solid green;
+    max-width: 124px;
+  }
+  .prod_btn:hover{
+    color:white;
+    background:green;
+    border:1px solid green;
+  }
+  .hero_btns{
+    display: grid;
+    align-items:flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 0.25fr));
+    gap: 5px;
   }
   .fresh{
     color: green;
@@ -77,20 +105,24 @@
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     text-align:center;
-    gap:10px;
+    gap: 25px;
   }
   .middle_heading{
     text-align:center;
     color:green;
   }
-  .middle_heading>h2{
+  .middle_heading>h3{
     padding-bottom:10px;
   }
   .left_middle{
     color:black;
-    border:none;
+    border:1px solid gainsboro;
+    border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .left_middle>h5{
+    padding: 10px;
   }
   .left_middle_info{
     display:grid;
@@ -111,9 +143,13 @@
   }
   .right_middle{
     color:black;
-    border:none;
+    border:1px solid gainsboro;
+    border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .right_middle>h5{
+    padding: 10px;
   }
   .left_middle_info{
     display:grid;
@@ -137,9 +173,13 @@
   }
   .middle_middle{
     color:black;
-    border:none;
     margin-top: 20px;
     margin-bottom: 20px;
+    border:1px solid gainsboro;
+    border-radius: 25px;
+  }
+  .middle_middle>h5{
+    padding: 10px;
   }
   .middle_middle_image{
     width:auto;
@@ -166,7 +206,7 @@
     text-align:center;
     gap:10px;
   }
-  .company>div>h1{
+  .company>h3{
     color:green;
   }
   .company>div>p{
@@ -207,7 +247,10 @@
     text-align: justify;
     padding: 20px;
   }
-  .objectives>h3{
+  .objectives>div>ul{
+    list-style-type: none;
+  }
+  .objectives>h5{
     text-align: center;
     color: black;
   }
@@ -220,6 +263,9 @@
     border-radius: 25px;
   }
   .objectives>p{
+    text-align: center;
+  }
+  .objectives>{
     text-align: center;
   }
   .vision{
@@ -238,443 +284,11 @@
     border:1px solid gainsboro;
     border-radius: 25px;
   }
-  .mission>h3{
+  .mission>h5{
     text-align: center;
     color: black;
   }
-  .vision>h3{
+  .vision>h5{
     text-align: center;
     color: black;
   }
-
-  @media only screen and (max-width: 320px){
-    .header {
-    display: block;
-  }
-  .company_core_businesses{
-    display:grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    text-align:center;
-  }
-  .slogan{
-    display: block;
-    text-align: left;
-    padding: 20px;
-  }
-  .hero>p{
-    position: absolute;
-    top: 170px;
-  }
-  .middle{
-    display:block;
-    text-align:center;
-  }
-   .left_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .middle_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .right_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .left_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .right_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .middle_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  ul{
-    color:black;
-  }
-
-  }
-  @media only screen and (max-width: 375px){
-    .header {
-    display: block;
-  }
-  .slogan{
-    display: block;
-    text-align: left;
-    padding: 20px;
-  }
-  .hero>p{
-    position: absolute;
-    top: 170px;
-  }
-  .middle{
-    display:block;
-    text-align:center;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin-bottom:5px;
-  }
-  .middle_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .left_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .right_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-   ul{
-    color:gray;
-  }
-   .left_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .middle_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .right_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   ul{
-    color:black;
-  }
-  }
-
-@media only screen and (max-width: 425px){
-    .header {
-    display: block;
-  }
-  .slogan{
-    display: block;
-    text-align: left;
-    padding: 20px;
-  }
-  .hero>p{
-    position: absolute;
-    top: 170px;
-  }
-  .middle{
-    display:block;
-    text-align:center;
-  }
-  .middle_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .company_core_businesses{
-    display:block;
-    text-align:center;
-  }
-  .left_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .right_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-   ul{
-    color:black;
-  }
-   .left_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .middle_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .right_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-  }
-  @media only screen and (max-width: 280px){
-    .header {
-    display: block;
-  }
-  .slogan{
-    display: block;
-    text-align: left;
-    padding: 20px;
-  }
-  .hero>p{
-    position: absolute;
-    top: 170px;
-  }
-  .middle{
-    display:block;
-    text-align:center;
-  }
-   .left_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .middle_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .right_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .left_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .right_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .middle_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  ul{
-    color:black;
-    list-style:dotted;
-  }
-  }
-  @media only screen and (max-width: 375px){
-    .header {
-      display: block;
-    }
-    .slogan{
-      display: block;
-      text-align: left;
-      padding: 20px;
-    }
-    .hero>p{
-      position: absolute;
-      top: 170px;
-    }
-    .middle{
-      display:block;
-      text-align:center;
-    }
-     .left_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .middle_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .right_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .left_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .right_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .middle_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    ul{
-      color:black;
-      list-style:dotted;
-    }
-    }
-    @media only screen and (max-width: 280px){
-      .header {
-      display: block;
-    }
-    .slogan{
-      display: block;
-      text-align: left;
-      padding: 20px;
-    }
-    .hero>p{
-      position: absolute;
-      top: 170px;
-    }
-    .middle{
-      display:block;
-      text-align:center;
-    }
-     .left_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .middle_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .right_middle{
-       padding-top:5px;
-       padding-bottom:5px;
-       margin-bottom:5px;
-     }
-     .left_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .right_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    .middle_middle ul{
-      list-style:none;
-      text-align:left;
-      margin-left:35%;
-    }
-    ul{
-      color:black;
-      list-style:dotted;
-    }
-  }
-  @media only screen and (max-width: 414px){
-    .header {
-    display: block;
-  }
-  .slogan{
-    display: block;
-    text-align: left;
-    padding: 20px;
-  }
-  .hero>p{
-    position: absolute;
-    top: 170px;
-  }
-  .middle{
-    display:block;
-    text-align:center;
-  }
-   .left_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .middle_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .right_middle{
-     padding-top:5px;
-     padding-bottom:5px;
-     margin-bottom:5px;
-   }
-   .left_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .right_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  .middle_middle ul{
-    list-style:none;
-    text-align:left;
-    margin-left:35%;
-  }
-  ul{
-    color:black;
-    list-style:dotted;
-  }
-}
-@media only screen and (max-width: 360px){
-  .header {
-  display: block;
-}
-.slogan{
-  display: block;
-  text-align: left;
-  padding: 20px;
-}
-.hero>p{
-  position: absolute;
-  top: 170px;
-}
-.middle{
-  display:block;
-  text-align:center;
-}
- .left_middle{
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom:5px;
- }
- .middle_middle{
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom:5px;
- }
- .right_middle{
-   padding-top:5px;
-   padding-bottom:5px;
-   margin-bottom:5px;
- }
- .left_middle ul{
-  list-style:none;
-  text-align:left;
-  margin-left:35%;
-}
-.right_middle ul{
-  list-style:none;
-  text-align:left;
-  margin-left:35%;
-}
-.middle_middle ul{
-  list-style:none;
-  text-align:left;
-  margin-left:35%;
-}
-ul{
-  color:black;
-  list-style:dotted;
-}
-}

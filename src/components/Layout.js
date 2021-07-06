@@ -14,40 +14,39 @@ export default function Layout({ children }) {
             <div className="content">
                 { children }
             </div>
-            <footer style={{ display: `grid` }}>
-                <div>
-                        <h2>Location</h2>
-                        <p>Keza Offices</p>
-                        <p>Post Office box 60284</p>
-                        <p>Blantyre 6, Malawi</p>
+            <footer style={{ display: `grid` }} className="footer">
+                <div >
+                        <h3>Location</h3>
+                        <div>
+                            <p>Keza Offices</p>
+                            <p>Post Office box 60284</p>
+                            <p>Blantyre 6, Malawi</p>
+                        </div>
                 </div>
                 <div>
-                        <h2>Contact Details</h2>
-                        <p>info@ritzfarms.com</p>
-                        <p>Down Town boy(number1)</p>
-                        <p>Down Town boy(number2)</p>
-                </div>
-                <div>
-                        <h2>Client References</h2>
-                            <p>Action Aid Malawi</p>
-                            <p>Peoples</p>
-                            <p>Islamic relief</p>
-                            <p>Mary's Meals</p>
-                            <p>Chibuku</p>
+                        <h3>Contact Details</h3>
+                        <div>
+                            <p>info@ritzfarms.com</p>
+                            <p>Down Town boy(number1)</p>
+                            <p>Down Town boy(number2)</p>
+                        </div>
                 </div>
                 <div className="social-media">
-                        <h2>Follow Us</h2>
+                        <h3>Follow Us</h3>
                         <section className="smedia">
                             <Link to="/">
-                                <FontAwesomeIcon icon={faInstagram}/>
+                                <FontAwesomeIcon icon={faInstagram} style={{ color: `white` }}/>
                             </Link>
                             <Link to="/">
-                                <FontAwesomeIcon icon={faFacebookF}/>
+                                <FontAwesomeIcon icon={faFacebookF} style={{ color: `white` }}/>
                             </Link>
                             <Link to="/">
-                                <FontAwesomeIcon icon={faTwitter}/>
+                                <FontAwesomeIcon icon={faTwitter} style={{ color: `white` }}/>
                             </Link>
                         </section>
+                </div>
+                <div>
+                    copyright
                 </div>
             </footer>
         </div>

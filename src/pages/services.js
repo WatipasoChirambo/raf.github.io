@@ -6,12 +6,14 @@ export default function Service() {
   return (
       <Layout>
     <div>
-    <h1>Services</h1>
+      <div className={styles.services_title}>
+        <h3>Services</h3>
+      </div>
       <div className={styles.wrapper}>
         <div className={styles.top_side}>
             <div className={styles.chemicals}>
                 <div>
-                  <h2>Agricultural Chemicals</h2>
+                  <h5>Agricultural Chemicals</h5>
                 </div>
                 <div>
                   <div>
@@ -28,7 +30,7 @@ export default function Service() {
             </div>
             <div className={styles.livestock}>
                 <div>
-                  <h2>Livestock</h2>
+                  <h5>Livestock</h5>
                 </div>
                 <div>
                   <p>
@@ -41,7 +43,7 @@ export default function Service() {
         <div className={styles.down_side}>
             <div className={styles.vegetables}>
                 <div>
-                  <h2>Agricultural Trade</h2>
+                  <h5>Agricultural Trade</h5>
                 </div>
                 <div>
                   <p>
@@ -52,7 +54,7 @@ export default function Service() {
             </div>
             <div className={styles.logistics}>
                 <div>
-                  <h2>Transportation</h2>
+                  <h5>Transportation</h5>
                 </div>
                 <div>
                   <p>

@@ -1,11 +1,12 @@
 import React from 'react'
 import Logo from '../Navbar/Logo';
 import { Link } from "gatsby";
+import * as styles from '../../styles/global.css'
 import { Container,Navbar, Nav } from 'react-bootstrap';
 
 function Navigationbar() {
     return (
-        <Container>
+        <Container style={{ maxWidth: `100vw` }}>
                 <Navbar expand="md">
                 <Navbar.Brand href="/">
                     <Logo/>

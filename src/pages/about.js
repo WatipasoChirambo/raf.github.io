@@ -13,7 +13,7 @@ export default function About() {
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
-          <h2>Aim</h2>
+          <h4>Aim</h4>
           <div>
           <StaticImage src="../images/aim.png" alt="farmer"/>
           </div>
@@ -23,7 +23,7 @@ export default function About() {
           </p> 
         </div>
         <div className={styles.second_about_info}>
-          <h2>Background Information</h2>
+          <h4>Background Information</h4>
           <div>
             <StaticImage src="../images/back.png" alt="farmer"/>
           </div>

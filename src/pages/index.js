@@ -1,4 +1,4 @@
-import { Link} from 'gatsby';
+import { Link } from 'gatsby';
 import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
@@ -9,51 +9,53 @@ export default function Home() {
   return (
     <Layout>
       <section>
-      <div className={styles.header}>
-        <div className={styles.slogan}>
-          <div>
-            <div className={styles.hero}>
-            {/* <p className={styles.fresh}>A fresh green vision for your life</p> */}
-          <h1>Ritz Farms & Property <br></br>Investments Limited</h1>
-            </div>
-            <div className={styles.hero_text}>
-              <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
-              The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
-              </p>
-            </div>
+        <div className={styles.header}>
+          <div className={styles.slogan}>
             <div>
-            <p className={styles.hero_time}>
-              <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
-            </p>
+              <div className={styles.hero}>
+                <h1>Fresh Farm Produce <br></br> <span style={{ color: `green` }}>For You</span></h1>
+              </div>
+              <div className={styles.hero_text}>
+                <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
+                  The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
+                </p>
+              </div>
+              <div className={styles.hero_time}>
+                <p>
+                  <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
+                </p>
+              </div>
+              <div className={styles.hero_btns}>
+                <Link className={styles.btn} to="/Products">Products</Link>
+                <Link className={styles.prod_btn} to="/about">About</Link>
+              </div>
             </div>
-            <Link className={styles.btn} to="/about">Read More</Link>
+          </div>
+          <div>
+            <StaticImage src="../images/girl.png" alt="farmer" />
           </div>
         </div>
-        <div>
-        <StaticImage src="../images/girl.png" alt="farmer"/>
-        </div>
-      </div>
-      <div className={styles.company}>
-          <h1>COMPANY INFO</h1>
-        <div className={styles.company_core_businesses}>
-        <div className={styles.vision}>
-              <h3>VISION</h3>
+        <div className={styles.company}>
+          <h3>Company Information</h3>
+          <div className={styles.company_core_businesses}>
+            <div className={styles.vision}>
+              <h5>Vision</h5>
               <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/vision.png" alt="vision"/>
+                <StaticImage src="../images/vision.png" alt="vision" />
               </div>
               <p>To be the leading agribusiness company while providing solid returns to the community</p>
-        </div>
-          <div className={styles.mission}>
-              <h3>MISSION</h3>
-              <div style={{ textAlign: `center` }}>
-              <StaticImage src="../images/mission.png" alt="mission"/>
             </div>
-              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
-          </div>
-          <div className={styles.objectives}>
-              <h3>OBJECTIVES</h3>
+            <div className={styles.mission}>
+              <h5>Mission</h5>
               <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/target.png" alt="objectives"/>
+                <StaticImage src="../images/mission.png" alt="mission" />
+              </div>
+              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
+            </div>
+            <div className={styles.objectives}>
+              <h5>Objectives</h5>
+              <div style={{ textAlign: `center` }}>
+                <StaticImage src="../images/target.png" alt="objectives" />
               </div>
               <div>
                 <ul>
@@ -69,19 +71,19 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+          </div>
         </div>
-      </div>
-      <div className={styles.middle_heading}>
-          <h1>CORE BUSINESSES</h1>
-      </div>
-      <div className={styles.middle}>
-        <div className={styles.left_middle}>
-        <h2>Real Estate</h2>
-            <StaticImage src="../images/estate.png" alt="A dinosaur" 
-            placeholder="blurred"
-            height={250}
+        <div className={styles.middle_heading}>
+          <h3>Core Businesses</h3>
+        </div>
+        <div className={styles.middle}>
+          <div className={styles.left_middle}>
+            <h5>Real Estate</h5>
+            <StaticImage src="../images/estate.png" alt="A dinosaur"
+              placeholder="blurred"
+              height={250}
             />
-        <div className={styles.left_middle_info}>
+            <div className={styles.left_middle_info}>
               <div>
                 <ul>
                   <li>Namiwawa:<span> Blantyre</span></li>
@@ -91,12 +93,12 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-        </div>
-        <div className={styles.middle_middle}>
-        <h2>Agriculture Trade</h2>
-            <StaticImage src="../images/nature.png" alt="nature" 
-            placeholder="blurred"
-            height={250}
+          </div>
+          <div className={styles.middle_middle}>
+            <h5>Agriculture Trade</h5>
+            <StaticImage src="../images/nature.png" alt="nature"
+              placeholder="blurred"
+              height={250}
             />
             <div className={styles.middle_middle_info}>
               <div>
@@ -109,55 +111,43 @@ export default function Home() {
               </div>
             </div>
           </div>
-        <div className={styles.right_middle}>
-        <div>
-          <h2>Logistics</h2>
-          </div>
+          <div className={styles.right_middle}>
+            <h5>Logistics</h5>
             <StaticImage src="../images/logistics.png" alt="A dinosaur"
-            placeholder="blurred"
-            height={250}
+              placeholder="blurred"
+              height={250}
             />
-        <div className={styles.right_middle_info}>
-          <div>
-                <ul>
-                  <li>Mitsubishi 10 Tonner</li>
-                  <li>Ashok Leyland 15 Tonner</li>
-                </ul>
+            <div className={styles.right_middle_info}>
+              <ul>
+                <li>Mitsubishi 10 Tonner</li>
+                <li>Ashok Leyland 15 Tonner</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className={style_ting.reference_list_title}>
+          <div className={style_ting.reference_title}>
+            <h3>Client References</h3>
+          </div>
+          <div className={style_ting.reference_list}>
+              <div>
+                  <StaticImage src="../images/SFFRFM.png" alt="farmer" />
               </div>
-            </div>
-        </div>
-      </div>
-      <div className={style_ting.reference_list_title}>
-      <h2>Client References</h2>
-        <div className={style_ting.reference_list}>
-          <div className={style_ting.reference_list_top}>
-            <div>
               <div>
-            <StaticImage src="../images/SFFRFM.png" alt="farmer"/>
-            </div>
-            </div>
-            <div>
+                  <StaticImage src="../images/mary.png" alt="farmer" />
+              </div>
               <div>
-            <StaticImage src="../images/mary.png" alt="farmer"/>
-            </div>
-            </div>
-            <div>
+                  <StaticImage src="../images/donnas_eggs.png" alt="farmer" />
+              </div>
               <div>
-            <StaticImage src="../images/donnas_eggs.png" alt="farmer"/>
-            </div>
-            </div>
-            <div>
-          <StaticImage src="../images/fol.png" alt="farmer"/>
+                <StaticImage src="../images/fol.png" alt="farmer" />
+              </div>
+              <div>
+                <StaticImage src="../images/Peoples.png" alt="farmer" />
+              </div>
           </div>
-            <div>
-            <div>
-          <StaticImage src="../images/Peoples.png" alt="farmer"/>
-          </div>
-            </div>
-          </div> 
         </div>
-      </div>
-    </section>
+      </section>
     </Layout>
   )
 }
