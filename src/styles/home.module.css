@@ -292,3 +292,19 @@
     text-align: center;
     color: black;
   }
+
+  @media only screen and (max-width: 768px){
+    .header{
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      grid-gap: 40px !important;
+    }
+  }
+  @media only screen and (max-width: 428px){
+    .header{
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      grid-gap: 40px !important;
+    }
+  }
+

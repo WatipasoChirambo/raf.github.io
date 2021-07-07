@@ -103,3 +103,52 @@ footer ul{
   color: white;
   font-size: large;
 }
+
+@media only screen and (max-width: 768px){
+  .navbar{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 100%;
+  }
+  nav {
+    display: grid !important;
+    grid-template-columns: 1fr 0.5fr !important;
+    width: 100% !important;
+  }
+  button{
+    max-width: 50px !important;
+    max-height: 50px !important;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem !important;
+    font-size: -0.75rem !important;
+    line-height: 1 !important;
+    background-color: #0000 !important;
+    border: none !important;
+    border-radius: none !important;
+}
+}
+@media only screen and (max-width: 428px){
+  .navbar{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 100%;
+  }
+  nav {
+    display: grid !important;
+    grid-template-columns: 1fr 0.5fr !important;
+    width: 100% !important;
+  }
+  button{
+    max-width: 50px !important;
+    max-height: 50px !important;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem !important;
+    font-size: -0.75rem !important;
+    line-height: 1 !important;
+    background-color: #0000 !important;
+    border: none !important;
+    border-radius: none !important;
+}
+}

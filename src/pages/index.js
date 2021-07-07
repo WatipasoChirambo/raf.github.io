@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <StaticImage src="../images/girl.png" alt="farmer" />
+            <StaticImage src="../images/environment.png" alt="farmer" />
           </div>
         </div>
         <div className={styles.company}>
