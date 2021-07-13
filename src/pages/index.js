@@ -1,14 +1,25 @@
 import { Link } from 'gatsby';
 import React from "react"
+import { Carousel } from 'react-bootstrap';
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
 import * as style_ting from '../styles/about.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {   faSeedling } from '@fortawesome/free-brands-svg-icons';
 import { StaticImage } from "gatsby-plugin-image"
+import { Card,ListGroup,ListGroupItem } from 'react-bootstrap';
+// import vision from "../images/vision.png"
+import mission from "../images/mission.png"
+import objectives from "../images/goal.png"
+import Vision from "../images/vision.png";
+import agr_trade from "../images/seedling.svg"
+import logistics from "../images/shipment.png"
+import real_estate from "../images/building.png"
+
 
 export default function Home() {
   return (
     <Layout>
-      <section>
         <div className={styles.header}>
           <div className={styles.slogan}>
             <div>
@@ -22,7 +33,7 @@ export default function Home() {
               </div>
               <div className={styles.hero_time}>
                 <p>
-                  <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
+                  <b>Open Time:</b> 08:00am - <b>Close Time:</b>16:00pm
                 </p>
               </div>
               <div className={styles.hero_btns}>
@@ -31,8 +42,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>
-            <StaticImage src="../images/environment.png" alt="farmer" />
+          <div style={{ textAlign: `center`, maxWidth:`auto`, maxHeight:`150`, marginLeft:`32%`}}>
+            <StaticImage src="../images/environment.png" alt="farmer"/>
           </div>
         </div>
         <div className={styles.company}>
@@ -40,35 +51,42 @@ export default function Home() {
           <div className={styles.company_core_businesses}>
             <div className={styles.vision}>
               <h5>Vision</h5>
-              <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/vision.png" alt="vision" />
-              </div>
-              <p>To be the leading agribusiness company while providing solid returns to the community</p>
+              <Card style={{ width: '18rem', border:`none` }}>
+                {/* <Card.Img variant="top" src={Vision} /> */}
+                <Card.Body>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
             </div>
+            
             <div className={styles.mission}>
               <h5>Mission</h5>
-              <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/mission.png" alt="mission" />
-              </div>
-              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
+              <Card style={{ width: '18rem', border:`none` }}>
+              <Card.Img variant="top" src={mission} style={{ textAlign: `center`, maxWidth:`auto`, maxHeight:`100`}} /> 
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+              </Card.Body>
+          </Card>
             </div>
+
             <div className={styles.objectives}>
+              <div className={styles.middle_middle}>
               <h5>Objectives</h5>
-              <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/target.png" alt="objectives" />
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    Providing quality livestock
-                  </li>
-                  <li>
-                    Empowering local farmers with agribusiness skills
-                  </li>
-                  <li>
-                    Improving irrigation systems among communities
-                  </li>
-                </ul>
+                <Card style={{ width: '18rem', border:`none` }}>
+                <Card.Img variant="top" src={objectives} />
+                <Card.Body>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk of
+                    the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
               </div>
             </div>
           </div>
@@ -78,76 +96,57 @@ export default function Home() {
         </div>
         <div className={styles.middle}>
           <div className={styles.left_middle}>
-            <h5>Real Estate</h5>
-            <StaticImage src="../images/estate.png" alt="A dinosaur"
-              placeholder="blurred"
-              height={250}
-            />
-            <div className={styles.left_middle_info}>
-              <div>
-                <ul>
-                  <li>Namiwawa:<span> Blantyre</span></li>
-                  <li>Nyambadwe: <span> Blantyre</span></li>
-                  <li>BCA:<span> Blantyre</span></li>
-                  <li>Mangochi Boma:<span> Mangochi</span></li>
-                </ul>
-              </div>
-            </div>
+          <h5>Real Estate</h5>
+          <Card style={{ width: '18rem', border:`none` }}>
+            <Card.Img variant="top" src={agr_trade} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>Cras justo odio</ListGroupItem>
+              <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+              <ListGroupItem>Vestibulum at eros</ListGroupItem>
+            </ListGroup>
+          </Card>
           </div>
           <div className={styles.middle_middle}>
-            <h5>Agriculture Trade</h5>
-            <StaticImage src="../images/nature.png" alt="nature"
-              placeholder="blurred"
-              height={250}
-            />
-            <div className={styles.middle_middle_info}>
-              <div>
-                <ul>
-                  <li>Crop Seeds</li>
-                  <li>Rice</li>
-                  <li>Goat Meat</li>
-                  <li>Poultry</li>
-                </ul>
-              </div>
-            </div>
+          <h5>Agriculture Trade</h5>
+          <Card style={{ width: '18rem', border:`none` }}>
+            <Card.Img variant="top" src={agr_trade} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>Cras justo odio</ListGroupItem>
+              <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+              <ListGroupItem>Vestibulum at eros</ListGroupItem>
+            </ListGroup>
+          </Card>
           </div>
           <div className={styles.right_middle}>
             <h5>Logistics</h5>
-            <StaticImage src="../images/logistics.png" alt="A dinosaur"
-              placeholder="blurred"
-              height={250}
-            />
-            <div className={styles.right_middle_info}>
-              <ul>
-                <li>Mitsubishi 10 Tonner</li>
-                <li>Ashok Leyland 15 Tonner</li>
-              </ul>
-            </div>
+            <Card style={{ width: '18rem', border:`none`}}>
+            <Card.Img variant="top" src={logistics} />
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>Cras justo odio</ListGroupItem>
+              <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+              <ListGroupItem>Vestibulum at eros</ListGroupItem>
+            </ListGroup>
+          </Card>
           </div>
         </div>
-        <div className={style_ting.reference_list_title}>
-          <div className={style_ting.reference_title}>
-            <h3>Client References</h3>
-          </div>
-          <div className={style_ting.reference_list}>
-              <div>
-                  <StaticImage src="../images/SFFRFM.png" alt="farmer" />
-              </div>
-              <div>
-                  <StaticImage src="../images/mary.png" alt="farmer" />
-              </div>
-              <div>
-                  <StaticImage src="../images/donnas_eggs.png" alt="farmer" />
-              </div>
-              <div>
-                <StaticImage src="../images/fol.png" alt="farmer" />
-              </div>
-              <div>
-                <StaticImage src="../images/Peoples.png" alt="farmer" />
-              </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   )
 }

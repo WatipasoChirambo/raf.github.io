@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../Navbar/Logo';
 import { Link } from "gatsby";
-import * as styles from '../../styles/global.css'
 import { Container,Navbar, Nav } from 'react-bootstrap';
 
 function Navigationbar() {

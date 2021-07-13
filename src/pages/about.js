@@ -9,7 +9,7 @@ export default function About() {
       <Layout>
     <section className={styles.about}>
     <div>
-    <h1>Ritz Farms & Property Investment Limited</h1>
+    <h1>Ritz Farms & Property Investments Limited</h1>
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
