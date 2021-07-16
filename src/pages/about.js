@@ -2,6 +2,12 @@ import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/about.module.css'
 import { StaticImage } from "gatsby-plugin-image"
+import { Carousel } from 'react-bootstrap';
+import islamic from '../images/islamic.png';
+import mary from '../images/mary.png';
+import sffrfm from '../images/SFFRFM.png';
+import CADECOM from '../images/CADECOM.png';
+
 
 export default function About() {
   
@@ -9,13 +15,13 @@ export default function About() {
       <Layout>
     <section className={styles.about}>
     <div>
-    <h1>Ritz Farms & Property Investments Limited</h1>
+    <h2>Ritz Farms & Property Investments Limited</h2>
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
           <h4>Aim</h4>
           <div>
-          <StaticImage src="../images/aim.png" alt="farmer"/>
+          <StaticImage src="../images/objectives.png" alt="farmer"/>
           </div>
           <p>
           To inspire the world by showing that its very much possible to simultaneously deliver satisfaction and happiness to customers, 
@@ -34,39 +40,28 @@ export default function About() {
         </div>
       </div>
       <div className={styles.reference_list_title}>
-      <h2>Client References</h2>
-        <div className={styles.reference_list}>
-          <div className={styles.reference_list_top}>
-            <div>
-            <div>
-          <StaticImage src="../images/donnas_eggs.png" alt="farmer"/>
-          </div>
+      <div style={{ textAlign: `center` }}>
+                <div>
+                    <h2>Client References</h2>
+                </div>
+                <Carousel nextIcon="">
+                    <Carousel.Item>
+                        <img src={islamic} alt="islamic relief"/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={mary} alt="mary-meals"/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={sffrfm} alt="sffrfm"/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={CADECOM} alt="codecom"/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={sffrfm} alt="sffrfm"/>
+                    </Carousel.Item>
+                </Carousel>
             </div>
-            <div>
-          <StaticImage src="../images/fol.png" alt="farmer"/>
-          </div>
-            <div>
-            <div>
-          <StaticImage src="../images/Peoples.png" alt="farmer"/>
-          </div>
-            </div>
-          </div>
-          <div className={styles.reference_list_bottom}>
-          <div>
-          <div>
-          <StaticImage src="../images/mary.png" alt="farmer"/>
-          </div>
-          </div>  
-          <div>
-          <StaticImage src="../images/islamic.png" alt="farmer"/>
-          </div>
-          <div>
-          <div>
-          <StaticImage src="../images/SFFRFM.png" alt="farmer"/>
-          </div>
-          </div> 
-          </div>  
-        </div>
       </div>
     </section>
     </Layout>

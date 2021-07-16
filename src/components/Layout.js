@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import '../styles/global.css';
-import { Carousel } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Navbar from './Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import islamic from '../images/islamic.png';
-import mary from '../images/mary.png';
-import sffrfm from '../images/SFFRFM.png';
+
 
 
 export default function Layout({ children }) {
@@ -19,25 +16,9 @@ export default function Layout({ children }) {
             <div className="content">
                 { children }
             </div>
-            <div style={{ textAlign: `center` }}>
-                <div>
-                    <h3>Client Refences</h3>
-                </div>
-                <Carousel nextIcon="">
-                    <Carousel.Item>
-                        <img src={islamic} alt="islamic relief"/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={mary} alt="mary-meals"/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={sffrfm} alt="sffrfm"/>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
             <footer style={{ display: `grid` }} className="footer">
                 <div>
-                        <h3>Location</h3>
+                        <h4 style={{ color: `white` }}>Location</h4>
                         <div>
                             <p>Keza Offices</p>
                             <p>Post Office box 60284</p>
@@ -45,7 +26,7 @@ export default function Layout({ children }) {
                         </div>
                 </div>
                 <div>
-                        <h3>Contact Details</h3>
+                        <h4 style={{ color: `white` }}>Contact Details</h4>
                         <div>
                             <p>info@ritzfarms.com</p>
                             <p>Down Town boy(number1)</p>
@@ -53,7 +34,7 @@ export default function Layout({ children }) {
                         </div>
                 </div>
                 <div className="social-media">
-                        <h3>Follow Us</h3>
+                        <h4 style={{ color: `white` }}>Follow Us</h4>
                         <section className="smedia">
                             <Link to="/">
                                 <FontAwesomeIcon icon={faInstagram} style={{ color: `white` }}/>

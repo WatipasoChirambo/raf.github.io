@@ -15,9 +15,8 @@ body {
   position: relative;
   background: white;
 }
-p {
-  margin: 10px auto;
-  line-height: 1.5em;
+p.card-text{
+    text-align: left !important;
 }
 .content {
   margin-left: 50px;
@@ -88,6 +87,9 @@ img .card-img-top{
   color: rgba(0,0,0,.9);
   margin-bottom: auto;
 }
+.carousel-indicators{
+  display: none !important;
+}
 
 footer{
   display:grid;
@@ -109,6 +111,8 @@ footer div h3{
 footer p{
   text-align: center;
   color: gray;
+  margin-top: 0;
+  margin-bottom: 0.5px;
 }
 footer ul{
   text-align:center;
@@ -141,6 +145,9 @@ footer ul{
     margin-right: 10px;
     max-width: 100vw;
 }
+.carousel-indicators{
+  display: none !important;
+}
   nav {
     display: grid !important;
     grid-template-columns: 1fr 0.5fr !important;
@@ -164,6 +171,9 @@ footer ul{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     width: 100%;
+  }
+  .carousel-indicators{
+    display: none !important;
   }
   .content {
     margin-left: 10px;

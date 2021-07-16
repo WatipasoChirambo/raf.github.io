@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr 0.5fr;
     grid-template-rows:1fr;
     grid-gap: 40px;
   }
@@ -36,16 +36,14 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  .hero{
-      color: green;
-  }
+
   .hero_time{
     margin-bottom: 10px;
     margin-top: 10px;
   }
   .hero>h2{
     text-align:left;
-    color: green;
+    color: black;
   }
   
   .left_middle_background{
@@ -63,39 +61,35 @@
   }
   .btn {
     text-align: center;
-    display: block;
-    float: right;
-    background:green;
-    color:white;
-    border-radius: 50px;
-    max-width: 124px;
+    vertical-align: middle;
+    font-weight: 500;
   }
-  .btn:hover{
-    color:green;
-    background:white;
-    border:1px solid green;
+  .btn.sharp{
+    border-radius: 0;
   }
-  .prod_btn{
-    text-align: center;
-    display: block;
-    float: left;
-    max-width: auto;
-    background:white;
-    color:green;
-    border-radius: 50px;
-    border: 0.5px solid green;
-    max-width: 124px;
+  button{
+    color: white;
+    max-width: fit-content;
+    text-decoration: none;
   }
-  .prod_btn:hover{
-    color:white;
-    background:green;
-    border:1px solid green;
+  a>p{
+    color: white;
   }
-  .hero_btns{
-    display: grid;
-    align-items:flex-start;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 0.25fr));
-    gap: 5px;
+  button>p{
+    color: white;
+  }
+  button:hover{
+    text-decoration: none;
+  }
+  .hero_btns>a{
+    text-decoration: none !important;
+  }
+  .hero_btns>a>div>p{
+    color: white !important;
+  }
+  .btn-outline-success{
+    color: green !important;
+    max-width: fit-content;
   }
   .card-body {
     flex: 1 1 auto !important;
@@ -110,17 +104,12 @@ div.card-body{
     color: green;
   }
   .middle{
-    margin-top:5px;
-    margin-left:5px;
-    margin-right:5px;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 2rem;
     text-align:center;
-    gap: 25px;
   }
-  .middle_middle{
-
-  }
+ 
   .middle_heading{
     text-align:center;
     color:green;
@@ -185,9 +174,9 @@ div.card-body{
     margin-bottom:15px;
   }
   .middle_middle{
-    color: #000;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .middle_middle>h5{
     text-align: center;
@@ -307,6 +296,12 @@ div.card-body{
       grid-template-columns: 1fr !important;
       grid-gap: 40px !important;
     }
+    .btn-group-sm>.btn, .btn-sm {
+      padding: 0.25rem .5rem;
+      font-size: .875rem;
+      line-height: 1.5;
+      border-radius: .2rem;
+  }
   }
   @media only screen and (max-width: 428px){
     .header{
@@ -314,5 +309,11 @@ div.card-body{
       grid-template-columns: 1fr !important;
       grid-gap: 40px !important;
     }
+    .btn-group-sm>.btn, .btn-sm {
+      padding: 0.25rem .5rem;
+      font-size: .875rem;
+      line-height: 1.5;
+      border-radius: .2rem;
+  }
   }
 

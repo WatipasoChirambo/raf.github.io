@@ -8,7 +8,7 @@ function Navigationbar() {
     return (
         <Container style={{ maxWidth: `100vw` }}>
                 <Navbar expand="md">
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" style={{ margin: `0` }}>
                     <Logo/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarResponsive"/>
