@@ -19,9 +19,6 @@ export default function About() {
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
-
-          <h4>Aim</h4>
-
           <h2>Goal</h2>
 
           <div>
@@ -33,7 +30,7 @@ export default function About() {
           </p> 
         </div>
         <div className={styles.second_about_info}>
-          <h4>Background Information</h4>
+          <h2>Background Information</h2>
           <div>
             <StaticImage src="../images/back.png" alt="farmer"/>
           </div>

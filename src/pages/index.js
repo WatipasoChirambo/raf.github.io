@@ -92,7 +92,7 @@ export default function Home() {
           <h3>Core Businesses</h3>
         </div>
         <div className={styles.middle}>
-          <Link style={{ textDecoration: `none` }} to='/'>
+          <Link style={{ textDecoration: `none` }} to='/agricultureTrade'>
           <div className={styles.right_middle}>
               <h5 style={{ borderTop: `2px solid green`, borderLeft: `2px solid green`, borderRight: `2px solid green` }}>Agricultural Trade</h5>
               <div style={{ width: '200', color:`green` }}>

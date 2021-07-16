@@ -6,7 +6,7 @@ function agricultureTrade() {
         <Layout>
             <>
                 <section>
-                    
+                    <p>Damn</p>
                 </section>
             </>
         </Layout>
