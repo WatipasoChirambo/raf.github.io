@@ -19,7 +19,11 @@ export default function About() {
     </div>
       <div className={styles.about_info}>
         <div className={styles.first_about_info}>
+
           <h4>Aim</h4>
+
+          <h2>Goal</h2>
+
           <div>
           <StaticImage src="../images/objectives.png" alt="farmer"/>
           </div>

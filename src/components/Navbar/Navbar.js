@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { Container,Navbar, Nav } from 'react-bootstrap';
 import * as styles from '../../styles/navigation.module.css'
 
+
 function Navigationbar() {
     return (
         <Container style={{ maxWidth: `100vw` }}>
@@ -42,3 +43,31 @@ function Navigationbar() {
 }
 
 export default Navigationbar
+
+export default function Navbar() { 
+  const data = useStaticQuery(graphql`
+  query logo {
+    file(relativePath: {eq: "logo.jpg"}) {
+      childImageSharp {
+        fluid{
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+  `)
+  return (
+    <nav>
+      <div className="logo">
+        <Img fluid={data.file.childImageSharp.fluid}/>
+      </div>
+      <div className="links">
+            <Link to="/">Home</Link>
+            <Link to="/Products">Products</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/about">About</Link>
+      </div>
+    </nav>
+  )
+}
+

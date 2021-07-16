@@ -43,9 +43,15 @@
     padding-right:15px;
 }
 .livestock{
+
     border-right:2px solid green;
     border-top:2px solid green;
     text-align:center;
+
+    border-left:2px solid #ff0000;
+    border-top:2px solid #ff0000;
+    text-align:justify;
+
     margin-bottom: 25px;
 }
 .livestock>div>h5{
@@ -61,9 +67,14 @@
     padding-right:15px;
 }
 .vegetables{
+
     border-left:2px solid green;
     border-top:2px solid green;
     text-align:center;
+
+    border-right:2px solid rgb(34, 163, 82);
+    border-top:2px solid rgb(34, 163, 82);
+    text-align:justify;
     margin-bottom: 25px;
 }
 .vegetables>div>h5{
