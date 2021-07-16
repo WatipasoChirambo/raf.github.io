@@ -125,9 +125,6 @@ div.card-body{
   .left_middle>h5{
     padding: 10px;
   }
-  .left_middle>h5>div{
-    
-  }
   .left_middle_info{
     display:grid;
     grid-template-rows:auto;
