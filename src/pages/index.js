@@ -13,7 +13,8 @@ export default function Home() {
           <div className={styles.slogan}>
             <div>
               <div className={styles.hero}>
-                <h1>Fresh Farm <br></br> Produce <br></br> <h3 style={{ color: `green` }}>"Its all yours"</h3></h1>
+                <h2>Fresh Farm Produce <br></br></h2>
+                <h4 style={{ color: `green` }}>"Its all yours"</h4>
               </div>
               <div className={styles.hero_text}>
                 <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
@@ -27,7 +28,7 @@ export default function Home() {
               </div>
               <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
-                <div style={{ backgroundColor: `purple`, border:`none`,maxWidth:`120px`, color:`white` }} size="sm">
+                <div style={{ backgroundColor: `purple`, border:`none`,maxWidth:`130px`, color:`white` }} size="sm">
                   <p style={{ Color: `white`}}>Contact Us</p>
                 </div>
               </Link>

@@ -24,7 +24,7 @@ export default function Service() {
             </div>
             <div className={styles.livestock}>
                 <div>
-                  <h5>Livestock</h5>
+                  <h5 style={{ textAlign:`center` }}>Livestock</h5>
                 </div>
                 <div>
                   <p>

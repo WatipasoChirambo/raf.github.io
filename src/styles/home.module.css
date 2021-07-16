@@ -78,6 +78,17 @@
   button>p{
     color: white;
   }
+  .btn-2{
+    background-color: purple;
+    border: 1px solid purple;
+    max-width:130px;
+    color:'white';
+  }
+  .btn-2:hover{
+    border-bottom: 1px solid purple;
+    max-width:130px;
+    color:purple;
+  }
   button:hover{
     text-decoration: none;
   }
@@ -293,6 +304,9 @@ div.card-body{
       grid-template-columns: 1fr !important;
       grid-gap: 40px !important;
     }
+    h3{
+      text-align: left;
+    }
     .btn-group-sm>.btn, .btn-sm {
       padding: 0.25rem .5rem;
       font-size: .875rem;
@@ -311,6 +325,9 @@ div.card-body{
       font-size: .875rem;
       line-height: 1.5;
       border-radius: .2rem;
+  }
+  h3{
+    text-align: left;
   }
   }
 
