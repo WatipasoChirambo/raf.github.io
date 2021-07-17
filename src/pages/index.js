@@ -28,9 +28,7 @@ export default function Home() {
               </div>
               <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
-                <div style={{ backgroundColor: `green`, border:`1px solid green`,maxWidth:`130px`,maxHeight:`90px`, color:`white` }} size="sm">
-                  <p style={{ Color: `white`}}>About Us</p>
-                </div>
+                <Button variant="outline-dark">About Us</Button>
               </Link>
               </div>
             </div>
