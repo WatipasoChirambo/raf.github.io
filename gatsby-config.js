@@ -9,9 +9,11 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-image`,
+    `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,12 +28,19 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon:`src/images/logo.png`
+      },
+    },
   ],
   siteMetadata:{
     title:'Ritz Farms & Property',
     description:'Ritz farms and property investment limited sets out itself to be a leading agribusiness in malawi',
     copyright:'copyright 2021 Watipaso Chirambo',
     contact: 'ritzfarms@gmail.com',
-    image:"../rf/static/logo.jpg"
+    image:"../rf/static/logo.png",
+    siteURL: "https://ritzfarms.com",
   }
 }

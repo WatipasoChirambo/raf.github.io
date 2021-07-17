@@ -14,12 +14,12 @@ export default function Home({ data }) {
               <h3 style={{ color: `gray`,textAlign: `center` }}>Available products</h3>
               <div className={styles.products}>
                   {products.map(product =>(
-                      <Link to={"/Products/"+ product.frontmatter.slug} key={product.id}>
+                      <Link to={"/Products/"+ product.frontmatter.slug} key={product.id} style={{ textDecoration: 'none' }}>
                           <div>
                             <div>
                             <Img fluid={product.frontmatter.thumb.childImageSharp.fluid}/>
                             </div>
-                              <h2 style={{ color: `green` }}>{ product.frontmatter.title }</h2>
+                              <h4 style={{ color: `green`, textAlign:`center` }}>{ product.frontmatter.title }</h4>
                               <p>{ product.frontmatter.stack }</p>
                           </div>
                       </Link>

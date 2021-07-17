@@ -1,0 +1,39 @@
+.navStyle{
+    font-size: 15px;
+}
+
+.navStyle:hover{
+    border-bottom: 0.5px solid green;
+}
+
+@media only screen and (max-width: 428px){
+    .navStyle>a{
+        display: inline-block;
+        margin-left: 60%;
+        font-weight: 15;
+        padding-top: 5px;
+        color: #008000;
+    }
+    a.navbar-brand {
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navStyle>a{
+        display: inline-block;
+        font-weight: 15;
+        padding-top: 10px;
+        color: #008000;
+        margin-left: 2px;
+    }
+    .navStyle>a:hover{
+        border-bottom: 1px solid green;
+    }
+    a.navbar-brand {
+        margin: 0 !important;
+    }
+    a.nav-link{
+        margin-left: 2px;
+    }
+}

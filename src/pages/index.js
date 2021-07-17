@@ -1,122 +1,169 @@
-import { Link} from 'gatsby';
+import { Link } from 'gatsby';
 import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image";
+import { Card } from 'react-bootstrap';
+
 
 export default function Home() {
   return (
     <Layout>
-      <section>
-      <div className={styles.header}>
-        <div className={styles.slogan}>
-          <div>
-            <div className={styles.hero}>
-          <h1>Ritz Farms <br></br>& Property Investments Limited</h1>
-            </div>
-            <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
-            The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
-            </p>
+        <div className={styles.header}>
+          <div className={styles.slogan}>
             <div>
-            <p>
-              <b>Open Time:</b> 08:00 - <b>Close Time:</b>16:00
-            </p>
-            <p className={styles.fresh}>A fresh green vision for your life</p>
-            </div>
-            <Link className={styles.btn} to="/about">Read More</Link>
-          </div>
-        </div>
-        <div>
-        <StaticImage src="../images/girl.png" alt="farmer"/>
-        </div>
-      </div>
-      <div className={styles.company}>
-          <h1>COMPANY INFO</h1>
-        <div className={styles.company_core_businesses}>
-        <div className={styles.vision}>
-              <h3>VISION</h3>
-              <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/vision.png" alt="vision"/>
+              <div className={styles.hero}>
+                <h2>Fresh Farm Produce <br></br></h2>
+                <h4 style={{ color: `green` }}>"Its all yours"</h4>
               </div>
-              <p>To be the leading agribusiness company while providing solid returns to the community</p>
-        </div>
-          <div className={styles.mission}>
-              <h3>MISSION</h3>
-              <div style={{ textAlign: `center` }}>
-              <StaticImage src="../images/mission.png" alt="mission"/>
-            </div>
-              <p>Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises</p>
-          </div>
-          <div className={styles.objectives}>
-              <h3>OBJECTIVES</h3>
-              <div style={{ textAlign: `center` }}>
-                <StaticImage src="../images/target.png" alt="objectives"/>
+              <div className={styles.hero_text}>
+                <p>Ritz farms and Property investment Limited sets out itself to be a leading agribusiness in Malawi.
+                  The core business we are involved in are Trading, Livestock, Transportation, Real Estate, and Chemicals.
+                </p>
               </div>
-                <p>Providing quality livestock</p>
-                <p>Empowering local farmers with agribusiness skills</p>
-                <p>Improving irrigation systems among communities</p>
-            </div>
-        </div>
-      </div>
-      <div className={styles.middle_heading}>
-          <h1>CORE BUSINESSES</h1>
-      </div>
-      <div className={styles.middle}>
-        <div className={styles.left_middle}>
-        <h2><strong>Real Estate</strong></h2>
-            <StaticImage src="../images/estate.png" alt="A dinosaur" 
-            placeholder="blurred"
-            height={250}
-            />
-        <div className={styles.left_middle_info}>
-              <div>
-                <ul>
-                  <li>Namiwawa:<span> Blantyre</span></li>
-                  <li>Nyambadwe: <span> Blantyre</span></li>
-                  <li>BCA:<span> Blantyre</span></li>
-                  <li>Mangochi Boma:<span> Mangochi</span></li>
-                </ul>
+              <div className={styles.hero_time}>
+                <p>
+                  <b>Open Time:</b> 08:00am - <b>Close Time:</b>16:00pm
+                </p>
               </div>
-            </div>
-        </div>
-        <div className={styles.middle_middle}>
-        <h2><strong>Agriculture Trade</strong></h2>
-            <StaticImage src="../images/nature.png" alt="nature" 
-            placeholder="blurred"
-            height={250}
-            />
-            <div className={styles.middle_middle_info}>
-            <div>
-          </div>
-              <div>
-                <ul>
-                  <li>Crop Seeds</li>
-                  <li>Rice</li>
-                  <li>Goat Meat</li>
-                  <li>Poultry</li>
-                </ul>
+              <div className={styles.hero_btns}>
+              <Link className={styles.btn} to="/about">
+                <div style={{ backgroundColor: `purple`, border:`none`,maxWidth:`130px`, color:`white` }} size="sm">
+                  <p style={{ Color: `white`}}>Contact Us</p>
+                </div>
+              </Link>
               </div>
             </div>
           </div>
-        <div className={styles.right_middle}>
-        <div>
-          <h2><strong>Logistics</strong></h2>
+          <div style={{ textAlign: `center`, maxWidth:`auto`, maxHeight:`150`}}>
+            <StaticImage src="../images/environment.png" alt="farmer"/>
           </div>
-            <StaticImage src="../images/logistics.png" alt="A dinosaur"
-            placeholder="blurred"
-            height={250}
-            />
-        <div className={styles.right_middle_info}>
-          <div>
-                <ul>
-                  <li>Mitsubishi 10 Tonner</li>
-                  <li>Ashok Leyland 15 Tonner</li>
-                </ul>
-              </div>
-            </div>
         </div>
-      </div>
-    </section>
+        <div className={styles.company}>
+          <h3>Company Information</h3>
+          <div className={styles.company_core_businesses}>
+            <div className={styles.right_middle}>
+              <h5>Vision</h5>
+              <div style={{ width: '200' }}>
+                <StaticImage src="../images/eye.png" alt="farmer"/>
+              </div>
+              <Card style={{ width: '100%' }}>
+                    <Card.Body>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+            </div>
+
+          <div className={styles.left_middle}>
+            <h5>Mission</h5>
+            <div style={{ width: '200' }}>
+              <StaticImage src="../images/objectives.png" alt="farmer"/>
+            </div>
+            <Card style={{ width: '100%' }}>
+                  <Card.Body>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+          </div>
+
+          <div className={styles.left_middle}>
+            <h5>Objectives</h5>
+            <div style={{ width: '200' }}>
+              <StaticImage src="../images/tasks.png" alt="farmer"/>
+            </div>
+            <Card style={{ width: '100%' }}>
+                  <Card.Body>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+          </div>
+          </div>
+        </div>
+        <hr></hr>
+        <div className={styles.middle_heading}>
+          <h3>Core Businesses</h3>
+        </div>
+        <div className={styles.middle}>
+          <Link style={{ textDecoration: `none` }} to='/agricultureTrade'>
+          <div className={styles.right_middle}>
+              <h5 style={{ borderTop: `2px solid green`, borderLeft: `2px solid green`, borderRight: `2px solid green` }}>Agricultural Trade</h5>
+              <div style={{ width: '200', color:`green` }}>
+                <StaticImage src="../images/seedling.png" alt="farmer"/>
+              </div>
+              <Card style={{ width: '100%' }}>
+                    <Card.Body>
+                      <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+            </div>
+          </Link>
+
+          <Link style={{ textDecoration: `none` }} to='/livestock'>
+          <div className={styles.right_middle}>
+            <h5 style={{ borderTop: `2px solid green`, borderLeft: `2px solid green`, borderRight: `2px solid green` }}>Livestock</h5>
+            <div style={{ width: '200' }}>
+              <StaticImage src="../images/eye.png" alt="farmer"/>
+            </div>
+            <Card style={{ width: '100%' }}>
+                  <Card.Body>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+          </div>
+          </Link>
+
+          <Link style={{ textDecoration: `none` }} to='/'>
+          <div className={styles.right_middle}>
+            <h5 style={{ borderTop: `2px solid green`, borderLeft: `2px solid green`, borderRight: `2px solid green` }}>Logistics</h5>
+            <div style={{ width: '200' }}>
+              <StaticImage src="../images/shipping.png" alt="farmer"/>
+            </div>
+            <Card style={{ width: '100%' }}>
+                  <Card.Body>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+          </div>
+          </Link>
+
+          <Link style={{ textDecoration: `none` }} to='/'>
+          <div className={styles.right_middle}>
+            <h5 style={{ borderTop: `2px solid green`, borderLeft: `2px solid green`, borderRight: `2px solid green` }}>Real Estate</h5>
+            <div style={{ width: '200' }}>
+              <StaticImage src="../images/building.png" alt="farmer"/>
+            </div>
+            <Card style={{ width: '100%' }}>
+                  <Card.Body>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the bulk of
+                      the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+          </div>
+          </Link>
+
+
+        </div>
+        <hr></hr>
     </Layout>
   )
 }
