@@ -28,9 +28,7 @@ export default function Home() {
               </div>
               <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
-                <div size="sm">
-                  About Us
-                </div>
+                <Button variant="outline-secondary">About Us</Button>
               </Link>
               </div>
             </div>
