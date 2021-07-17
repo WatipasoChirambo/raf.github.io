@@ -26,11 +26,9 @@ export default function Home() {
                   <b>Open Time:</b> 08:00am - <b>Close Time:</b>16:00pm
                 </p>
               </div>
-              <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
                 <Button variant="outline-dark">About Us</Button>
               </Link>
-              </div>
             </div>
           </div>
           <div style={{ textAlign: `center`, maxWidth:`auto`, maxHeight:`150`}}>
