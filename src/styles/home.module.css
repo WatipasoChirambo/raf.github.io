@@ -313,6 +313,12 @@ div.card-body{
       line-height: 1.5;
       border-radius: .2rem;
   }
+  .hero_btns>a{
+    text-decoration: none !important;
+  }
+  .hero_btns>a>div>p{
+    color: white !important;
+  }
   }
   @media only screen and (max-width: 428px){
     .header{
@@ -328,6 +334,12 @@ div.card-body{
   }
   h3{
     text-align: left;
+  }
+  .hero_btns>a{
+    text-decoration: none !important;
+  }
+  .hero_btns>a>div>p{
+    color: white !important;
   }
   }
 

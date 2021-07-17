@@ -3,7 +3,7 @@ import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
 import { StaticImage } from "gatsby-plugin-image";
-import { Card,Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 
 export default function Home() {
@@ -26,9 +26,13 @@ export default function Home() {
                   <b>Open Time:</b> 08:00am - <b>Close Time:</b>16:00pm
                 </p>
               </div>
+              <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
-                <Button variant="outline-dark">About Us</Button>
+                <div size="sm">
+                  About Us
+                </div>
               </Link>
+              </div>
             </div>
           </div>
           <div style={{ textAlign: `center`, maxWidth:`auto`, maxHeight:`150`}}>
