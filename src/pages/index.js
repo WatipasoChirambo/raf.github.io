@@ -28,7 +28,7 @@ export default function Home() {
               </div>
               <div className={styles.hero_btns}>
               <Link className={styles.btn} to="/about">
-                <div style={{ backgroundColor: `purple`, border:`none`,maxWidth:`130px`, color:`white` }} size="sm">
+                <div style={{ backgroundColor: `green`, border:`none`,maxWidth:`130px`, color:`white` }} size="sm">
                   <p style={{ Color: `white`}}>Contact Us</p>
                 </div>
               </Link>
