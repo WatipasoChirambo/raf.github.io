@@ -7,7 +7,7 @@ export default function NotFound() {
     <section>
         <h2>404</h2>
       <p>
-        Page doesn't exist
+        Page doesn't exist You'll be taken back
       </p>
     </section>
     </Layout>
