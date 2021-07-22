@@ -3,7 +3,7 @@ import React from "react"
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
 import { StaticImage } from "gatsby-plugin-image";
-import { Card,Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 
 export default function Home() {
@@ -27,9 +27,9 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.hero_btns}>
-              <Link className={styles.btn} to="/about">
-                <Button variant="outline-secondary">About Us</Button>
-              </Link>
+                  <Link className={styles.btn} to="/about">
+                    About Us
+                  </Link>
               </div>
             </div>
           </div>

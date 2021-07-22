@@ -37,7 +37,7 @@
     "gatsby-transformer-remark": "^4.0.0",
     "gatsby-transformer-sharp": "^3.3.0",
     "joi": "^17.4.0",
-    "mdbreact": "^5.0.2",
+    "mdbreact": "^5.1.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.1",
     "react-router-dom": "^5.2.0",
