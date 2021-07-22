@@ -65,7 +65,7 @@ h2{
   .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 80px;
+    grid-gap: 0px;
     margin: 80px 20px;
   }
   .products h2{
@@ -110,7 +110,7 @@ h2{
   .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 80px;
+    grid-gap: 0px;
     margin: 80px 20px;
   }
   .products h2{

@@ -76,7 +76,7 @@
     background-color: white;
     color: green;
     border: 1px solid green;
-    padding: 10px;
+    padding: 5px;
   }
   .btn.sharp{
     border-radius: 0;
@@ -229,6 +229,10 @@ div.card-body{
     column-gap: 2rem;
     text-align:center;
     gap:10px;
+  }
+  .company>div{
+    color:black;
+    text-align: center;
   }
   .company>h3{
     color:green;

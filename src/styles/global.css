@@ -92,6 +92,7 @@ img .card-img-top{
 }
 
 footer{
+  height: 200px;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top:15px;
