@@ -322,8 +322,15 @@ div.card-body{
       grid-template-columns: 1fr !important;
       grid-gap: 40px !important;
     }
-    h3{
-      text-align: left;
+    .company>div{
+      color:black;
+      text-align: center;
+    }
+    .company>h3{
+      color:green;
+    }
+    .company>div>p{
+      color:black;
     }
     .btn-group-sm>.btn, .btn-sm {
       padding: 0.25rem .5rem;
