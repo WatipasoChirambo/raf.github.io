@@ -17,9 +17,9 @@ export default function Layout({ children }) {
             <div className="content">
                 { children }
             </div>
-            <footer style={{ display: `grid` }} className="footer">
+            <footer style={{ display: `grid`,backgroundColor:`green` }} className="footer">
                 <div>
-                        <h3>Location</h3>
+                        <h4>Location</h4>
                         <div>
                             <p>Keza Offices</p>
                             <p>Post Office box 60284</p>
@@ -35,7 +35,7 @@ export default function Layout({ children }) {
                         </div>
                 </div>
                 <div className="social-media">
-                        <h3>Follow Us</h3>
+                        <h4>Follow Us</h4>
                         <section className="smedia">
                             <Link to="/">
                                 <FontAwesomeIcon icon={faInstagram} style={{ color: `white` }}/>
@@ -49,7 +49,7 @@ export default function Layout({ children }) {
                         </section>
                 </div>
                 <div className="copyright">
-                   <p>&copy; {date} www.ritzfarms.com</p>
+                   <h6>&copy;  ritzfarms {date}</h6>
                 </div>
             </footer>
         </div>

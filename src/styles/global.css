@@ -96,6 +96,7 @@ footer{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top:15px;
+  background-color:green;
 }
 footer h3{
   text-align:center;
