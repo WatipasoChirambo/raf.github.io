@@ -6,6 +6,7 @@ import {  faFacebookF , faTwitter,faInstagram } from '@fortawesome/free-brands-s
 import Navbar from './Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const date = new Date().getFullYear()
 
 
 export default function Layout({ children }) {
@@ -48,7 +49,7 @@ export default function Layout({ children }) {
                         </section>
                 </div>
                 <div className="copyright">
-                   <p>&copy; 2021 www.ritzfarms.com</p>
+                   <p>&copy; {date} www.ritzfarms.com</p>
                 </div>
             </footer>
         </div>
