@@ -27,7 +27,7 @@ export default function Layout({ children }) {
                         </div>
                 </div>
                 <div>
-                        <h3>Contact Details</h3>
+                        <h4>Contact Details</h4>
                         <div>
                             <p>info@ritzfarms.com</p>
                             <p>Phone Number 1</p>
