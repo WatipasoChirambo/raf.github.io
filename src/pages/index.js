@@ -17,7 +17,7 @@ export default function Home() {
         <h3>Company Information</h3>
         <div className={styles.company_core_businesses}>
           <div className={styles.right_middle}>
-            <h5 style={{ backgroundColor: "green", color: "white" }}>Vision</h5>
+            <h6>Vision</h6>
             <div style={{ width: "200" }}>
               <StaticImage src="../images/eye.png" alt="farmer" />
             </div>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <div className={styles.left_middle}>
-            <h5>Mission</h5>
+            <h6>Mission</h6>
             <div style={{ width: "200" }}>
               <StaticImage src="../images/objectives.png" alt="farmer" />
             </div>
@@ -39,17 +39,17 @@ export default function Home() {
           </div>
 
           <div className={styles.left_middle}>
-            <h5>Objectives</h5>
+            <h6>Objectives</h6>
             <div style={{ width: "200" }}>
               <StaticImage src="../images/tasks.png" alt="farmer" />
             </div>
             <div className={styles.company_info_text}>
               <p style={{textAlign:"left"}}>
               <ul>
-                <li>Providing quality livestock meat and milk production</li>
-                <li>Improving irrigation systems among communities</li>
-                <li>Producing and supplying quality food crop at affordable prices</li>
-                <li>Generating enough retains to stakeholders</li>
+                <li>Providing quality livestock meat and milk production.</li>
+                <li>Improving irrigation systems among communities.</li>
+                <li>Producing and supplying quality food crop at affordable prices.</li>
+                <li>Generating enough retains to stakeholders.</li>
               </ul>
               </p>
             </div>

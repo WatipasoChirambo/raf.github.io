@@ -139,7 +139,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .left_middle>h5{
+  .left_middle>h6{
     padding: 10px;
     color:white;
     background-color:green;
@@ -165,8 +165,10 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .right_middle>h5{
+  .right_middle>h6{
     padding: 10px;
+    color:white;
+    background-color:green;
   }
   .left_middle_info{
     display:grid;
