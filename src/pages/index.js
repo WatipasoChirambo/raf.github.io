@@ -48,8 +48,7 @@ export default function Home() {
               <Card style={{ width: '100%' }}>
                     <Card.Body>
                       <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                      To be the leading agribusiness company while providing solid returns to the communit.
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -63,8 +62,7 @@ export default function Home() {
             <Card style={{ width: '100%' }}>
                   <Card.Body>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    Contributing to the agricultural sector by making significant strides in promoting small scale farmers and other enterprises.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -78,8 +76,13 @@ export default function Home() {
             <Card style={{ width: '100%' }}>
                   <Card.Body>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    Providing quality livestock meat and milk production.
+                    </Card.Text>
+                    <Card.Text>
+                    Improving irrigation systems among communities.
+                    </Card.Text>
+                    <Card.Text>
+                      Producing and supplying quality food crop at affordable prices
                     </Card.Text>
                   </Card.Body>
                 </Card>

@@ -49,7 +49,7 @@ export default function Layout({ children }) {
                         </section>
                 </div>
                 <div className="copyright">
-                   <h6>&copy;  ritzfarms {date}</h6>
+                   <h6>&copy; ritzfarms {date}</h6>
                 </div>
             </footer>
         </div>
