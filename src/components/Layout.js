@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <>
         <Navbar/>
         <div className="layout">
-            <div className="content">
+            <div>
                 { children }
             </div>
             <footer style={{ display: `grid`,backgroundColor:`green` }} className="footer">

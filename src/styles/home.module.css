@@ -41,9 +41,10 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  .hero>h2{
-    text-align:left;
-    color: black;
+  .hero{
+    background-image:url('../images/veggies.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .left_middle_background{
@@ -116,23 +117,14 @@
     color: green !important;
     max-width: fit-content;
   }
-  .card-body {
-    flex: 1 1 auto !important;
-    min-height: 1px !important;
-    padding: 1.2rem !important;
-}
-div.card-body{
-  border: none !important;
-}
-
-  .fresh{
-    color: green;
-  }
   .middle{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 2rem;
     text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
   }
  
   .middle_heading{
@@ -149,6 +141,8 @@ div.card-body{
   }
   .left_middle>h5{
     padding: 10px;
+    color:white;
+    background-color:green;
   }
   .left_middle_info{
     display:grid;
@@ -158,7 +152,6 @@ div.card-body{
     list-style:none;
     text-align:left;
     margin-top:5%;
-    margin-left:35%;
   }
   .left_middle h2{
     color: black;
@@ -222,8 +215,7 @@ div.card-body{
     color: black;
   }
   .company{
-    margin-bottom:10px;
-    margin-top:10px;
+    margin:10%;
     display:grid;
     grid-template-rows:1fr;
     column-gap: 2rem;
@@ -231,7 +223,6 @@ div.card-body{
     gap:10px;
   }
   .company>div{
-    color:black;
     text-align: center;
   }
   .company>h3{
